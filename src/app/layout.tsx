@@ -1,10 +1,14 @@
 import type { Metadata } from "next";
 import { ThemeProvider } from "next-themes";
+import { Analytics } from "@vercel/analytics/react";
 import { LanguageProvider } from "@/context/LanguageContext";
 import { Header } from "@/components/Header";
 import "./globals.css";
 
 export const metadata: Metadata = {
+  verification: {
+    google: "wxL3sutjoZHupHM-v-eiQARKOVP9KKnif6s1rizNfxI",
+  },
   title: {
     default: "DuaHub – Islamic Duas & Supplications in Arabic, English, Bangla",
     template: "%s | DuaHub",
@@ -72,6 +76,7 @@ export default function RootLayout({
                 </p>
               </footer>
             </div>
+            <Analytics />
           </LanguageProvider>
         </ThemeProvider>
       </body>

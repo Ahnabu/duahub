@@ -129,6 +129,18 @@ export function DuaPageClient({ slug }: { slug: string }) {
             </div>
           </div>
         )}
+
+        {/* Context / Significance */}
+        {(dua.context_en || dua.context_bn) && (
+          <div className="px-6 py-4 border-t border-border">
+            <p className={cn("text-xs font-medium text-muted-foreground uppercase tracking-wider mb-2", isBn ? "bangla" : "")}>
+              {isBn ? "তাৎপর্য ও প্রেক্ষাপট" : "Significance & Context"}
+            </p>
+            <p className={cn("text-foreground leading-relaxed text-sm", isBn ? "bangla" : "")}>
+              {isBn ? dua.context_bn || dua.context_en : dua.context_en || dua.context_bn}
+            </p>
+          </div>
+        )}
       </div>
 
       {/* Related duas */}

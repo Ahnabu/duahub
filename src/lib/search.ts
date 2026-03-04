@@ -59,9 +59,41 @@ function matchByCategory(words: string[]): Dua[] {
 }
 
 export function searchDuas(query: string): Dua[] {
-  if (!query.trim()) return [];
+  const trimmed = query.trim();
+  if (!trimmed) return [];
 
-  const words = query.trim().split(/\s+/);
+  // Check for regex pattern: /pattern/flags
+  const regexMatch = trimmed.match(/^\/(.+)\/([gimuy]*)$/);
+  
+  if (regexMatch) {
+    try {
+      const [, pattern, flags] = regexMatch;
+      const regex = new RegExp(pattern, flags || "i"); // default case-insensitive if no flags
+
+      return duas.filter((dua) => {
+        // Search across all text fields
+        const searchableText = [
+          dua.purpose_en,
+          dua.purpose_bn,
+          dua.meaning_en,
+          dua.meaning_bn,
+          dua.transliteration,
+          dua.arabic,
+          dua.source,
+          ...(dua.tags || []),
+          dua.subcategory_label_en,
+          dua.subcategory_label_bn
+        ].join(" ");
+        
+        return regex.test(searchableText);
+      });
+    } catch (e) {
+      // Invalid regex fallback to normal search
+      console.warn("Invalid regex provided:", e);
+    }
+  }
+
+  const words = trimmed.split(/\s+/);
 
   // 1. Fuzzy search over all indexed fields
   const fuse = getFuse();

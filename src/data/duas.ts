@@ -102,6 +102,24 @@ export const duas: Dua[] = [
       "My Lord! Forgive and have mercy, for You are the best of those who show mercy.",
     tags: ["forgiveness", "mercy", "concise", "powerful"],
   },
+  {
+    id: "q-rep-006",
+    slug: "yunus-distress-darkness",
+    category: "quran",
+    subcategory: "repentance",
+    subcategory_label_en: "Repentance & Forgiveness",
+    subcategory_label_bn: "তাওবা ও ক্ষমা",
+    purpose_en: "The Supplication of Yunus (Ayat al-Kareema)",
+    purpose_bn: "ইউনুস (আ.)-এর দোয়া (আয়াত আল-কারীমা)",
+    source: "Quran: Surah Al-Anbiya, 21:87",
+    arabic: "لَّآ إِلَٰهَ إِلَّآ أَنتَ سُبْحَٰنَكَ إِنِّى كُنتُ مِنَ ٱلظَّٰلِمِينَ",
+    transliteration: "La ilaha illa anta subhanaka inni kuntu minaz-zalimin.",
+    meaning_bn: "তুমি ব্যতীত কোন উপাস্য নেই; তুমি পবিত্র, মহান। নিশ্চয়ই আমি সীমালংঘনকারীদের অন্তর্ভুক্ত।",
+    meaning_en: "There is no deity except You; exalted are You. Indeed, I have been of the wrongdoers.",
+    tags: ["yunus", "distress", "depression", "darkness", "forgiveness"],
+    context_en: "The historical invocation of the Prophet Jonah (Yunus) represents the ultimate archetype of a plea delivered from the depths of profound isolation, despair, and systemic darkness. Found in Surah Al-Anbiya of the Qur'an, it is recited both historically and contemporarily during moments of severe distress and perceived entrapment. The semantic brilliance of this specific prayer is its total lack of a direct petition or demand. It consists entirely of a tripartite structure: a definitive declaration of monotheism, a profound glorification that negates any flaw from the Divine entity, and an unconditional admission of absolute human fault.",
+    context_bn: "নবী ইউনুস (আ.)-এর এই ঐতিহাসিক আহ্বানটি গভীর একাকীত্ব, হতাশা এবং অন্ধকারের অতল গহ্বর থেকে উদিত হাহাকারের এক অনন্য নিদর্শন। কুরআনের সূরা আল-আম্বিয়ায় বর্ণিত এই দোয়াটি চরম বিপদ ও অসহায়ত্বের মুহূর্তে পঠিত হয়। এই দোয়ার ভাষাগত অলৌকিকতা হলো এতে কোনো প্রত্যক্ষ প্রার্থনা বা দাবি নেই। এটি তিনটি অংশে বিন্যস্ত: তাওহিদের সুস্পষ্ট ঘোষণা, আল্লাহর পবিত্রতা ও মহিমা বর্ণনা (যা আল্লাহর সত্তা থেকে সকল ত্রুটি নাকচ করে), এবং নিজের ভুলের নিঃশর্ত স্বীকারোক্তি।"
+  },
 
   // ─── QURAN: Family ───────────────────────────────────────────────────────
   {
@@ -166,6 +184,8 @@ export const duas: Dua[] = [
     meaning_en:
       "Our Lord! Grant us joy in our spouses and children, and make us a model for the righteous.",
     tags: ["family", "spouse", "children", "leadership", "taqwa"],
+    context_en: "The nuclear family is intended to function as an impenetrable emotional sanctuary, a concept captured perfectly by the poetic Qur'anic idiom 'coolness of the eyes' (Qurrata A'yun). In the harsh, unforgiving environment of 7th-century Arabia, 'coolness of the eyes' was a literal metaphor for ultimate relief, tears of profound joy, and safety from the blistering elements. Sociologically and psychologically, this supplication seeks to make the home a zone of absolute psychological safety.",
+    context_bn: "ইসলামে পরিবারকে একটি নিরাপদ আবেগীয় দুর্গ হিসেবে কল্পনা করা হয়েছে, যা কুরআনের 'নয়ন জুড়ানো' (কুররাতু আ'য়ুন) উপমায় নিখুঁতভাবে ফুটে উঠেছে। সপ্তম শতাব্দীর আরবের রুক্ষ ও প্রতিকূল পরিবেশে 'চোখের শীতলতা' ছিল চরম স্বস্তি, আনন্দাশ্রু এবং প্রখর তাপ থেকে মুক্তির রূপক। এই দোয়াটি মূলত ঘর ও পরিবারকে এমন একটি নিরাপদ আশ্রয়ে পরিণত করার আহ্বান জানায়, যেখানে বাইরের পৃথিবীর অস্থিরতা ও উদ্বেগ প্রবেশ করতে পারে না।"
   },
   {
     id: "q-fam-004",
@@ -186,6 +206,24 @@ export const duas: Dua[] = [
     meaning_en:
       "Our Lord! Forgive us and our brothers who preceded us in faith, and do not put in our hearts any resentment toward those who believe. Our Lord! You are indeed Full of Kindness, Most Merciful.",
     tags: ["forgiveness", "brotherhood", "unity", "heart", "ummah"],
+  },
+  {
+    id: "q-fam-005",
+    slug: "parents-mercy-rabbir-hamhuma",
+    category: "quran",
+    subcategory: "family",
+    subcategory_label_en: "Family & Progeny",
+    subcategory_label_bn: "পরিবার ও বংশধর",
+    purpose_en: "Continuous Mercy for Parents",
+    purpose_bn: "পিতামাতার জন্য অফুরন্ত রহমতের দোয়া",
+    source: "Quran: Surah Al-Isra, 17:24",
+    arabic: "رَّبِّ ارْحَمْهُمَا كَمَا رَبَّيَانِي صَغِيرًا",
+    transliteration: "Rabbir-hamhuma kama rabbayani sagheera.",
+    meaning_bn: "হে আমার পালনকর্তা! তাদের উভয়ের প্রতি রহম করুন, যেমন তারা আমাকে শৈশবকালে লালন-পালন করেছেন।",
+    meaning_en: "My Lord, have mercy on them, as they raised me when I was a child.",
+    tags: ["parents", "mercy", "tarbiyah", "childhood", "family"],
+    context_en: "The Quran inextricably links the worship of God with profound benevolence toward parents. The linguistic formulation 'kama rabbayani sagheera' (exactly as they cherished/raised me when I was small) functions to systematically eliminate intergenerational arrogance. It forces the capable adult petitioner to continuously recall their initial state of total vulnerability and biological helplessness.",
+    context_bn: "কুরআন আল্লাহর ইবাদতের পরেই পিতামাতার প্রতি সদ্ব্যবহারের নির্দেশ দিয়েছে। 'কামা রাব্বায়ানি সাগিরা' (যেমন তারা শৈশবে আমাকে লালন করেছেন) শব্দগুচ্ছটি আন্তঃপ্রজন্মের অহংকার চূর্ণ করে দেয়। এটি একজন সক্ষম বয়স্ক সন্তানকে তার শৈশবের অসহায়ত্ব ও দুর্বলতার কথা স্মরণ করিয়ে দেয় এবং পিতামাতার প্রতি গভীর মমতবোধ জাগ্রত করে।"
   },
 
   // ─── QURAN: Protection ───────────────────────────────────────────────────
@@ -288,6 +326,8 @@ export const duas: Dua[] = [
     meaning_en:
       "Allah is sufficient for me. There is no god except Him. In Him I put my trust, and He is the Lord of the Mighty Throne.",
     tags: ["hasbiyallah", "tawakkul", "sufficiency", "power", "arsh"],
+    context_en: "When faced with overwhelming external opposition, geopolitical instability, or profound systemic failure, the invocation of absolute divine sufficiency acts as an impenetrable psychological shield. Once an individual comprehensively exhausts all material avenues, reciting Hasbiya Allahu consciously transfers the locus of control from the limited self to the omnipotent Divine.",
+    context_bn: "যখন মানুষ প্রবল শত্রুতা বা চরম বিপর্যয়ের সম্মুখীন হয়, তখন আল্লাহর ওপর পরম নির্ভরতাই হয়ে ওঠে তার সবচেয়ে শক্তিশালী মানসিক বর্ম। যখন সকল বৈষয়িক চেষ্টা ব্যর্থ হয়, তখন 'হাসবিয়াল্লাহ' পাঠের মাধ্যমে মানুষ তার অসহায়ত্বকে আল্লাহর অসীম ক্ষমতার কাছে সমর্পণ করে এবং মানসিক প্রশান্তি লাভ করে।"
   },
 
   // ─── QURAN: Wisdom ───────────────────────────────────────────────────────
@@ -367,6 +407,24 @@ export const duas: Dua[] = [
       "Our Lord! Do not let our hearts deviate after You have guided us. Grant us Your mercy. You are indeed the Giver of all bounties.",
     tags: ["heart", "guidance", "deviation", "mercy", "steadfastness"],
   },
+  {
+    id: "q-wis-004",
+    slug: "musa-destitution-need-faqir",
+    category: "quran",
+    subcategory: "wisdom",
+    subcategory_label_en: "Wisdom & Guidance",
+    subcategory_label_bn: "প্রজ্ঞা ও হেদায়েত",
+    purpose_en: "The Declaration of Utter Destitution (Musa's Dua)",
+    purpose_bn: "চরম মুখাপেক্ষিতা ও অসহায়ত্বের ঘোষণা (মুসার দোয়া)",
+    source: "Quran: Surah Al-Qasas, 28:24",
+    arabic: "رَبِّ إِنِّي لِمَا أَنزَلْتَ إِلَيَّ مِنْ خَيْرٍ فَقِيرٌ",
+    transliteration: "Rabbi inni lima anzalta ilayya min khairin faqir.",
+    meaning_bn: "হে আমার পালনকর্তা! আপনি আমার প্রতি যে অনুগ্রহই নাযিল করবেন, আমি তো তারই মুখাপেক্ষী।",
+    meaning_en: "My Lord, indeed I am, for whatever good You would send down to me, in need.",
+    tags: ["musa", "need", "poverty", "humility", "provision"],
+    context_en: "When Prophet Moses (Musa) fled Egypt, arriving in Midian destitute and exhausted, his supplication was a masterclass in theological politeness. He did not explicitly demand food, shelter, or safety. Instead, he simply stated a profound ontological fact: he was faqir (absolutely bankrupt) of whatever khayr (goodness) the Divine chose to dispense.",
+    context_bn: "মিশর থেকে পালিয়ে মাদিয়ানে পৌঁছানোর পর মুসা (আ.) ছিলেন নিঃস্ব ও ক্লান্ত। তখন তিনি আল্লাহর কাছে সরাসরি খাদ্য বা আশ্রয় না চেয়ে নিজের অসহায়ত্ব তুলে ধরেন। তিনি নিজেকে 'ফকির' বা চরম অভাবী হিসেবে উপস্থাপন করেন এবং আল্লাহর নির্ধারিত যেকোনো কল্যাণের প্রতি মুখাপেক্ষী থাকার ঘোষণা দেন।"
+  },
 
   // ─── SUNNAH: Salah ───────────────────────────────────────────────────────
   {
@@ -424,7 +482,7 @@ export const duas: Dua[] = [
     transliteration:
       "Allahummahdini fiman hadayt, wa afini fiman afayt, wa tawallani fiman tawallayt, wa barik li fima a'tayt, wa qini sharra ma qadayt.",
     meaning_bn:
-      "হে আল্লাহ! আপনি যাদের হেদায়েত দিয়েছেন আমাকে তাদের অন্তর্ভুক্ত করে হেদায়েত দিন, আপনি যাদের ক্ষমা করেছেন আমাকে তাদের অন্তর্ভুক্ত করে ক্ষমা করুন। আপনি আমাকে যা দিয়েছেন তাতে বরকত দিন এবং আপনি যা ফয়সালা করেছেন তার অকল্যাণ হতে আমাকে রক্ষা করুন।",
+      "হে আল্লাহ! আপনি যাদের হেদায়েত দিয়েছেন আমাকে তাদের অন্তর্ভুক্ত করুন, আপনি যাদের স্বস্তি দিয়েছেন আমাকে তাদের অন্তর্ভুক্ত করুন। আপনি আমাকে যা দিয়েছেন তাতে বরকত দিন এবং আপনার ফয়সালার অকল্যাণ হতে আমাকে রক্ষা করুন।",
     meaning_en:
       "O Allah, guide me among those You have guided, pardon me among those You have pardoned, be an ally to me among those You have allied, bless me in what You have given, and protect me from the evil of what You have decreed.",
     tags: ["witr", "qunoot", "guidance", "blessing", "protection", "decree"],
@@ -448,6 +506,8 @@ export const duas: Dua[] = [
     meaning_en:
       "O Allah! You are Peace, and from You comes peace. Blessed are You, O Possessor of Majesty and Honour.",
     tags: ["salah", "after prayer", "salam", "peace", "majesty"],
+    context_en: "By invoking As-Salam (The Source of Flawless Peace), the worshipper requests that the tranquility achieved during the isolated act of prayer is sustained as they re-engage with the chaotic variables of family, commerce, and societal obligations. It frames peace not as the absence of conflict, but as an active emanation from the Divine.",
+    context_bn: "নামাজ শেষে 'আস-সালাম' (শান্তির উৎস) নাম ধরে ডাকার মাধ্যমে বান্দা প্রার্থনা করে যেন নামাজের ভেতরের প্রশান্তি বাইরের কোলাহলপূর্ণ জগতেও বজায় থাকে। এটি জগতকে কেবল সংঘাতহীন নয়, বরং ঐশী শান্তির এক সক্রিয় প্রতিফলন হিসেবে দেখতে শেখায়।"
   },
 
   // ─── SUNNAH: Daily Life ──────────────────────────────────────────────────
@@ -470,6 +530,8 @@ export const duas: Dua[] = [
     meaning_en:
       "There is no god worthy of worship but Allah alone, with no partner. His is all sovereignty and to Him belongs all praise. He gives life and causes death. He is Ever-Living and never dies. In His hand is all good and He is able to do all things.",
     tags: ["marketplace", "business", "tawhid", "protection", "barakah"],
+    context_en: "The marketplace is traditionally viewed as a nexus of distraction and spiritual amnesia. Actively invoking the Divine in such a contested space yields disproportionately high spiritual merit. Reciting this formula anchors the believer against the overwhelming pull of aggressive consumerism.",
+    context_bn: "বাজারকে সাধারণত গাফিলতি ও বিস্মৃতির স্থান হিসেবে দেখা হয়। এমন স্থানে আল্লাহকে স্মরণ করা অত্যন্ত ফজিলতপূর্ণ। এই দোয়াটি পাঠের মাধ্যমে মুমিন নিজেকে ভোগবাদী মানসিকতা থেকে রক্ষা করতে পারে।"
   },
   {
     id: "s-dal-002",
@@ -498,6 +560,8 @@ export const duas: Dua[] = [
       "courage",
       "mental health",
     ],
+    context_en: "This linguistic structure operates on four distinct, interconnected dyads: temporal afflictions (anxiety/sorrow), operational failure (weakness/laziness), behavioral retractions (miserliness/cowardice), and socio-economic subjugation (debt/oppression). By actively vocalizing protection against these systemic constraints, the individual undergoes a cognitive reframing from victimhood to resilience.",
+    context_bn: "এই দোয়াটি চারটি প্রধান মানসিক ও সামাজিক সংকটকে মোকাবিলা করে: ভবিষ্যৎ উদ্বেগ ও অতীত দুঃখ, অক্ষমতা ও অলসতা, কৃপণতা ও ভীরুতা, এবং ঋণের বোঝা ও মানুষের শোষণ। এর মাধ্যমে মানুষ মানসিকভাবে নিজেকে শক্তিশালী ও সুরক্ষিত অনুভব করে।"
   },
   {
     id: "s-dal-003",
@@ -518,6 +582,42 @@ export const duas: Dua[] = [
     meaning_en:
       "O Allah, forgive him, have mercy on him, grant him well-being, pardon him. Honour his arrival, expand his entrance, wash him with water, snow, and hail.",
     tags: ["janazah", "funeral", "deceased", "forgiveness", "grave"],
+  },
+  {
+    id: "s-dai-004",
+    slug: "transforming-hardship-ease",
+    category: "sunnah",
+    subcategory: "daily-life",
+    subcategory_label_en: "Daily Life",
+    subcategory_label_bn: "দৈনন্দিন জীবন",
+    purpose_en: "Supplication for Actively Easing Difficulties",
+    purpose_bn: "কঠিন কাজ সহজ করার দোয়া",
+    source: "Hadith: Sahih Ibn Hibban, Hisnul Muslim 42",
+    arabic: "اللَّهُمَّ لاَ سَهْلَ إِلَّا مَا جَعَلْتَهُ سَهْلاً، وَأَنْتَ تَجْعَلُ الْحَزْنَ إِذَا شِئْتَ سَهْلاً",
+    transliteration: "Allahumma la sahla illa ma ja'altahu sahla, wa anta taj'alul-hazna idha shi'ta sahla.",
+    meaning_bn: "হে আল্লাহ! আপনি যা সহজ করে দেন তা ছাড়া কোনো কিছুই সহজ নয়। আর আপনি চাইলে কঠিন বিষয়কেও সহজ করে দেন।",
+    meaning_en: "O Allah, there is no ease except in that which You have made easy, and You make the difficulty, if You wish, easy.",
+    tags: ["ease", "difficulty", "exams", "challenges", "guidance"],
+    context_en: "This prayer introduces a crucial theological insight: 'ease' and 'difficulty' are not intrinsic properties of a task but are subjective states dictated by the Divine. A mountain can be traversed effortlessly if facilitated by grace, while a pebble can cause a stumble without it.",
+    context_bn: "এই দোয়াটি শেখায় যে কোনো কাজ নিজে কঠিন বা সহজ নয়; আল্লাহর ইচ্ছাতেই তা সহজ বা কঠিন হয়। আল্লাহর সাহায্য থাকলে পাহাড়ও ডিঙ্গানো সহজ, আর না থাকলে ছোট কাজেও মানুষ হোঁচট খায়।"
+  },
+  {
+    id: "s-dhikr-001",
+    slug: "subhanallah-wa-bihamdihi",
+    category: "sunnah",
+    subcategory: "daily-life",
+    subcategory_label_en: "Daily Life",
+    subcategory_label_bn: "দৈনন্দিন জীবন",
+    purpose_en: "The Statement of Perfection and Praise",
+    purpose_bn: "আল্লাহর পবিত্রতা ও প্রশংসার ঘোষণা",
+    source: "Hadith: Riyad us-Saliheen 1433",
+    arabic: "سُبْحانَ اللّهِ وَ بِحَمْدِهِ",
+    transliteration: "Subhan Allah Wa Bihamdihi.",
+    meaning_bn: "মহিমান্বিত আল্লাহ এবং তাঁরই সমস্ত প্রশংসা।",
+    meaning_en: "Glory be to Allah and Praise Him.",
+    tags: ["dhikr", "praise", "tasbih", "daily", "reward"],
+    context_en: "The constant repetition of this phrase acts as a spiritual abrasive, scrubbing the subconscious of ingratitude. 'Subhan' removes all imperfections from our concept of God, while 'Bihamdihi' attributes all perfection to Him.",
+    context_bn: "এই জিকিরটি নিয়মিত পাঠ করা অন্তরের অকৃতজ্ঞতা দূর করে। 'সুবহানাল্লাহ' আল্লাহর সত্তা থেকে সকল ত্রুটি নাকচ করে এবং 'আলহামদুলিল্লাহ' সকল প্রশংসা তাঁর দিকেই নিবেদন করে।"
   },
 
   // ─── SUNNAH: Morning & Evening ───────────────────────────────────────────
@@ -567,6 +667,8 @@ export const duas: Dua[] = [
       "covenant",
       "sins",
     ],
+    context_en: "The Sayyidul Istighfar is universally recognized as the most comprehensive formula for seeking divine pardon. Its linguistic structure is a masterpiece: it affirms divine Lordship, declares servitude, reaffirms the primordial covenant, acknowledges human fragility, and culminates in a desperate plea for absolution. Reciting this with conviction provides a paradigm of ultimate hope.",
+    context_bn: "সাইয়িদুল ইস্তিগফার হলো ক্ষমা প্রার্থনার সর্বশ্রেষ্ঠ বাক্য। এর গঠনশৈলী অত্যন্ত চমৎকার: এতে আল্লাহর প্রভুত্বের স্বীকৃতি, নিজের দাসত্বের ঘোষণা, আদি প্রতিশ্রুতির নবায়ন এবং নিজের ভুলের স্বীকারোক্তি রয়েছে। এটি পাঠে মুমিনের মনে আশার সঞ্চার হয় এবং পাপবোধের নিরাশা দূর হয়।"
   },
   {
     id: "s-me-003",
@@ -588,6 +690,174 @@ export const duas: Dua[] = [
     meaning_en:
       "I seek refuge in the perfect words of Allah from the evil of what He has created.",
     tags: ["evening", "protection", "refuge", "evil", "morning-evening"],
+  },
+  {
+    id: "s-me-004",
+    slug: "evening-supplication-amsayna",
+    category: "sunnah",
+    subcategory: "morning-evening",
+    subcategory_label_en: "Morning & Evening",
+    subcategory_label_bn: "সকাল ও সন্ধ্যার আমল",
+    purpose_en: "The Comprehensive Evening Supplication",
+    purpose_bn: "সন্ধ্যাবেলার বিশেষ আমল",
+    source: "Hadith: Hisnul Muslim 75",
+    arabic: "أَمْسَيْـنا وَأَمْسـى المـلكُ لله وَالحَمدُ لله... رَبِّ أَعـوذُبِكَ مِنَ الْكَسَـلِ وَسـوءِ الْكِـبَر",
+    transliteration: "Amsayna wa amsal-mulku lillah walhamdu lillah... Rabbi a'udhu bika minal-kasali wa su'il-kibar.",
+    meaning_bn: "আমরা সন্ধ্যায় উপনীত হয়েছি, আর রাজত্ব একমাত্র আল্লাহর জন্য এবং সমস্ত প্রশংসাও আল্লাহর... হে আমার রব, আমি আপনার কাছে অলসতা এবং বার্ধক্যের কষ্ট থেকে আশ্রয় চাই।",
+    meaning_en: "We have reached the evening and at this very time unto Allah belongs all sovereignty, and all praise is for Allah... My Lord, I seek refuge in You from laziness and helpless old age.",
+    tags: ["evening", "sovereignty", "protection", "laziness", "old age"],
+    context_en: "By initiating the evening with an explicit acknowledgment that sovereignty remains with the Divine even as the sun sets, the individual surrenders the anxieties accumulated during the workday. The prayer also seeks refuge from the evils of helpless old age, ensuring dignity throughout one's lifecycle.",
+    context_bn: "সূর্যাস্তের সাথে সাথে এই দোয়ার মাধ্যমে মুমিন ঘোষণা করে যে সকল রাজত্ব একমাত্র আল্লাহর। এটি দিনের ক্লান্তি ও উদ্বেগ দূর করে এবং বার্ধক্যের অক্ষমতা থেকে মুক্তি চাওয়ার এক শক্তিশালী মাধ্যম।"
+  },
+
+  // ─── SUNNAH: Repentance (New) ────────────────────────────────────────────
+  {
+    id: "s-rep-001",
+    slug: "daily-istighfar-routine",
+    category: "sunnah",
+    subcategory: "repentance",
+    subcategory_label_en: "Repentance & Forgiveness",
+    subcategory_label_bn: "তাওবা ও ক্ষমা",
+    purpose_en: "The Daily Repetitive Invocation for Forgiveness",
+    purpose_bn: "দৈনন্দিন ক্ষমা প্রার্থনার জিকির",
+    source: "Hadith: Riyad as-Salihin 1877",
+    arabic: "سُبْحَانَ اللَّهِ وَبِحَمْدِهِ، أَسْتَغْفِرُ اللَّهَ وَأَتُوبُ إِلَيْهِ",
+    transliteration: "Subhan Allahi wa bihamdihi; Astaghfirullaha wa atubu ilaihi.",
+    meaning_bn: "আল্লাহ পবিত্র এবং তাঁরই সমস্ত প্রশংসা; আমি আল্লাহর কাছে ক্ষমা প্রার্থনা করছি এবং তাঁর দিকেই ফিরে যাচ্ছি।",
+    meaning_en: "Allah is free from imperfection, and I begin with praising Him. I beg forgiveness from Allah and I turn to Him in repentance.",
+    tags: ["istighfar", "daily", "repentance", "tasbih", "maintenance"],
+    context_en: "The continuous, rhythmic repetition of this specific phrase—often cited as being recited frequently by the Prophet—acts as a spiritual abrasive, scrubbing the human consciousness of the psychological residue of daily micro-transgressions.",
+    context_bn: "নবীজি (সা.) নিয়মিত এই দোয়াটি পাঠ করতেন। এটি দিনের ছোটখাটো ভুলের গ্লানি মুছে ফেলে এবং অন্তরের পবিত্রতা ফিরিয়ে আনে।"
+  },
+
+  // ─── SUNNAH: Protection & Healing (New Categorization) ───────────────────
+  {
+    id: "s-pro-001",
+    slug: "ontological-shield-protection",
+    category: "sunnah",
+    subcategory: "protection",
+    subcategory_label_en: "Protection & Safety",
+    subcategory_label_bn: "সুরক্ষা ও নিরাপত্তা",
+    purpose_en: "Invocation for Environmental and Physical Protection",
+    purpose_bn: "সর্বাত্মক সুরক্ষা ও নিরাপত্তার দোয়া",
+    source: "Hadith: Sunan at-Tirmidhi, Abu Dawood",
+    arabic: "بِسْمِ اللَّهِ الَّذِي لَا يَضُرُّ مَعَ اسْمِهِ شَيْءٌ فِي الْأَرْضِ وَلَا فِي السَّمَاءِ وَهُوَ السَّمِيعُ الْعَلِيمُ",
+    transliteration: "Bismillahil-ladhi la yadurru ma'as-mihi shai'un fil-ardi wa la fis-sama'i, wa Hu-was-Sami'ul-'Alim.",
+    meaning_bn: "সেই আল্লাহর নামে যাঁর নামের সাথে আসমান ও যমীনের কোনো কিছুই কোনো ক্ষতি করতে পারে না; আর তিনি সর্বশ্রোতা, সর্বজ্ঞানী।",
+    meaning_en: "In the Name of Allah with Whose Name there is protection against every kind of harm in the earth or in the heaven, and He is the All-Hearing and All-Knowing.",
+    tags: ["protection", "morning", "evening", "safety", "harm"],
+    context_en: "This supplication establishes a paradigm where the verbal recitation itself modifies susceptibility to random environmental trauma. It grounds safety absolutely in the omniscience and omnipresence of the Creator.",
+    context_bn: "এই দোয়াটি পাঠ করলে আসমান ও জমিনের কোনো অনিষ্টই ক্ষতি করতে পারে না। এটি মুমিনের নিরাপত্তাকে সম্পূর্ণভাবে আল্লাহর সর্বজ্ঞ ও সর্বশ্রোতা সত্তার ওপর ন্যস্ত করে।"
+  },
+  {
+    id: "s-pro-002",
+    slug: "protection-grave-dajjal",
+    category: "sunnah",
+    subcategory: "protection",
+    subcategory_label_en: "Protection & Safety",
+    subcategory_label_bn: "সুরক্ষা ও নিরাপত্তা",
+    purpose_en: "Refuge from the Grave and Dajjal",
+    purpose_bn: "কবর ও দাজ্জালের ফিতনা থেকে মুক্তির দোয়া",
+    source: "Hadith: Sahih al-Bukhari, Sahih Muslim",
+    arabic: "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنْ عَذَابِ الْقَبْرِ، وَمِنْ عَذَابِ جَهَنَّمَ، وَمِنْ فِتْنَةِ الْمَحْيَا وَالْمَمَاتِ، وَمِنْ شَرِّ فِتْنَةِ الْمَسِيحِ الدَّجَّالِ",
+    transliteration: "Allahumma inni a'udhu bika min 'adhabil qabr wa min 'adhabi jahannam, wa min fitnatil-mahya wal-mamat, wa min sharri fitnatil-masihid-Dajjal.",
+    meaning_bn: "হে আল্লাহ! আমি আপনার কাছে কবরের আযাব, জাহান্নামের আযাব, জীবন ও মৃত্যুর ফিতনা এবং দাজ্জালের ফিতনার অনিষ্ট থেকে আশ্রয় চাই।",
+    meaning_en: "O Allah, I seek refuge in You from the torment of the grave, from the torment of the Hellfire, from the trials of life and death, and from the evil affliction of Al-Maseeh Ad-Dajjal.",
+    tags: ["dajjal", "grave", "protection", "salah", "fitnah"],
+    context_en: "Recited daily before the conclusion of Salah, this dua seeks refuge from unseen and apocalyptic trials. The specific mention of Dajjal acts as an inoculation against mass deception and systemic illusion.",
+    context_bn: "প্রতি নামাজের শেষ বৈঠকে এই দোয়াটি পড়া অত্যন্ত গুরুত্বপূর্ণ। এটি কবর, জাহান্নাম এবং দাজ্জালের মতো মহাবিপদ থেকে সুরক্ষার জন্য একটি শক্তিশালী বর্ম।"
+  },
+  {
+    id: "s-hea-001",
+    slug: "healing-rabban-nas",
+    category: "sunnah",
+    subcategory: "healing",
+    subcategory_label_en: "Health & Healing",
+    subcategory_label_bn: "স্বাস্থ্য ও আরোগ্য",
+    purpose_en: "Supplication for Total Physical Recovery",
+    purpose_bn: "রোগমুক্তির জন্য পরিপূর্ণ আরোগ্যের দোয়া",
+    source: "Hadith: Sahih al-Bukhari",
+    arabic: "اللَّهُمَّ رَبَّ النَّاسِ أَذْهِبِ الْبَاسَ، اشْفِ أَنتَ الشَّافِي، لَا شِفَاءَ إِلَّا شِفَاؤُكَ، شِفَاءً لَا يُغَادِرُ سَقَمًا",
+    transliteration: "Allahumma Rabban-nas, adhhibil-ba'sa, ishfi antash-Shafi, la shifa'a illa shifa'uka, shifa'an la yughadiru saqaman.",
+    meaning_bn: "হে আল্লাহ, মানুষের পালনকর্তা! আপনি কষ্ট দূর করে দিন এবং আরোগ্য দান করুন; আপনিই আরোগ্যকারী। আপনার আরোগ্য ছাড়া কোনো আরোগ্য নেই, এমন আরোগ্য যা কোনো রোগকে অবশিষ্ট রাখে না।",
+    meaning_en: "O Allah, Lord of mankind, remove the affliction and heal; You are the Healer. There is no healing but Your healing, a healing that leaves no illness.",
+    tags: ["healing", "sickness", "shifa", "health", "ruqyah"],
+    context_en: "This prayer contextualizes medical intervention as merely a tool, while establishing the Divine as the ultimate Healer. It aims for the total eradication of pathology, rather than just symptom management.",
+    context_bn: "এই দোয়াটি মনে করিয়ে দেয় যে ওষুধ ও চিকিৎসা কেবল উসিলা মাত্র, প্রকৃত আরোগ্যদানকারী আল্লাহ। এতে এমন এক আরোগ্য চাওয়া হয় যা রোগের কোনো রেশমাত্র অবশিষ্ট রাখে না।"
+  },
+
+  // ─── SUNNAH: Sustenance & Wisdom (New Categorization) ────────────────────
+  {
+    id: "s-sus-001",
+    slug: "ethical-sustenance-halal",
+    category: "sunnah",
+    subcategory: "sustenance",
+    subcategory_label_en: "Business & Wealth",
+    subcategory_label_bn: "ব্যবসা ও সম্পদ",
+    purpose_en: "Seeking Lawful Provision and Total Independence",
+    purpose_bn: "হালাল রিজিক ও আত্মনির্ভরশীলতার দোয়া",
+    source: "Hadith: Sunan at-Tirmidhi",
+    arabic: "اَلlّٰهُمَّ اكْفِنِي بِحَلَالِكَ عَنْ حَرَامِكَ وَأَغْنِنِي بِفَضْلِكَ عَمَّنْ سِوَاكَ",
+    transliteration: "Allahumma akfini bihalalika an haramika, wa aghnini bifadlika 'amman siwak.",
+    meaning_bn: "হে আল্লাহ! আপনার হালাল রিজিক দিয়ে আমাকে হারাম থেকে বাঁচান, এবং আপনার অনুগ্রহ দিয়ে আপনি ছাড়া অন্য সকলের মুখাপেক্ষী হওয়া থেকে আমাকে মুক্ত রাখুন।",
+    meaning_en: "O Allah, suffice me with Your lawful provision and save me from the unlawful, and enrich me with Your favors so that I am not dependent on anyone besides You.",
+    tags: ["sustenance", "debt", "halal", "wealth", "independence"],
+    context_en: "This requests sufficiency through strictly ethical means and liberation from dependence on others, preserving human dignity by eliminating subservience to anyone other than the Creator.",
+    context_bn: "এই দোয়াটি হারাম উপার্জন থেকে বেঁচে থাকা এবং মানুষের কাছে হাত পাতা থেকে মুক্তি চাওয়ার জন্য অত্যন্ত কার্যকরী। এটি আত্মসম্মান বোধ বজায় রাখতে সাহায্য করে।"
+  },
+  {
+    id: "s-sus-002",
+    slug: "beneficial-knowledge-sustenance",
+    category: "sunnah",
+    subcategory: "sustenance",
+    subcategory_label_en: "Business & Wealth",
+    subcategory_label_bn: "ব্যবসা ও সম্পদ",
+    purpose_en: "The Alignment of Beneficial Knowledge and Goodly Provision",
+    purpose_bn: "উপকারী জ্ঞান ও পবিত্র রিজিকের দোয়া",
+    source: "Hadith: Sunan Ibn Majah 925",
+    arabic: "اللَّهُمَّ إِنِّي أَسْأَلُكَ عِلْمًا نَافِعًا وَرِزْقًا طَيِّبًا وَعَمَلًا مُتَقَبَّلًا",
+    transliteration: "Allahumma inni as'aluka 'ilman nafi'an, wa rizqan tayyiban, wa 'amalan mutaqabbalan.",
+    meaning_bn: "হে আল্লাহ! আমি আপনার নিকট উপকারী জ্ঞান, পবিত্র রিজিক এবং কবুলযোগ্য আমল প্রার্থনা করছি।",
+    meaning_en: "O Allah, I ask You for beneficial knowledge, goodly provision, and acceptable deeds.",
+    tags: ["knowledge", "rizq", "deeds", "morning", "success"],
+    context_en: "The intentional sequencing here is profound: beneficial knowledge precedes pure provision, implying that ethical clarity is a prerequisite for acquiring wealth that does not corrupt.",
+    context_bn: "এখানে জ্ঞানের কথা আগে বলা হয়েছে, কারণ সঠিক জ্ঞান ছাড়া হালাল উপার্জন চেনা সম্ভব নয়। সকালবেলায় এই দোয়াটি পাঠ করা দিনের কাজগুলোর উদ্দেশ্য ঠিক করতে সাহায্য করে।"
+  },
+  {
+    id: "s-sus-003",
+    slug: "universal-debt-relief",
+    category: "sunnah",
+    subcategory: "sustenance",
+    subcategory_label_en: "Business & Wealth",
+    subcategory_label_bn: "ব্যবসা ও সম্পদ",
+    purpose_en: "Resolution of Debts and Broad Obligations",
+    purpose_bn: "ঋণ মুক্তি ও দায়বদ্ধতা পরিশোধের দোয়া",
+    source: "Hadith: Misbah al-Mutahajjid",
+    arabic: "اَللَّهُمَّ ٱرْدُدْ إِلىٰ جَمِيعِ خَلْقِكَ",
+    transliteration: "Allahumma urdud ila jami'i khalqika.",
+    meaning_bn: "হে আল্লাহ! আপনার সকল সৃষ্টির পাওনা পরিশোধে আমাকে সাহায্য করুন।",
+    meaning_en: "O Allah, (please) help me pay back to all of Your creatures.",
+    tags: ["debt", "obligation", "rights", "freedom", "relief"],
+    context_en: "The alleviation of debt is viewed as the restoration of liberty. This plea encompasses not just financial debt but all moral and social obligations owed to creation.",
+    context_bn: "ঋণ মানুষকে পরাধীন করে রাখে। এই দোয়াটি কেবল আর্থিক ঋণ নয়, বরং মানুষ ও সৃষ্টির প্রতি সকল প্রকার দায়বদ্ধতা থেকে মুক্তির জন্য প্রার্থনা।"
+  },
+  {
+    id: "s-wis-001",
+    slug: "anchoring-heart-muqallib",
+    category: "sunnah",
+    subcategory: "wisdom",
+    subcategory_label_en: "Wisdom & Guidance",
+    subcategory_label_bn: "প্রজ্ঞা ও হেদায়েত",
+    purpose_en: "Steadfastness and Anchoring of the Heart",
+    purpose_bn: "অন্তরের অবিচলতা ও দৃঢ়তার দোয়া",
+    source: "Hadith: Jami' at-Tirmidhi 3522",
+    arabic: "يَا مُقَلِّبَ الْقُلُوبِ ثَبِّتْ قَلْبِي عَلَى دِينِكَ",
+    transliteration: "Ya Muqallibal-qulub, thabbit qalbi 'ala dinik.",
+    meaning_bn: "হে অন্তরসমূহের পরিবর্তনকারী! আমার অন্তরকে আপনার দ্বীনের উপর অবিচল রাখুন।",
+    meaning_en: "O Changer of the hearts, make my heart firm upon Your religion.",
+    tags: ["heart", "steadfastness", "iman", "guidance", "prophet"],
+    context_en: "This was one of the most frequently repeated supplications by the Prophet. It acknowledges that spiritual stability is not a permanent achievement but a continuous divine grant.",
+    context_bn: "নবীজি (সা.) এই দোয়াটি খুব বেশি পড়তেন। মানুষের অন্তর সর্বদা পরিবর্তনশীল; তাই আল্লাহর কাছে দ্বীনের ওপর অটল থাকার তাওফিক চাওয়া অত্যন্ত জরুরি।"
   },
 
   // ─── SALAF: Sahabah ──────────────────────────────────────────────────────
@@ -854,6 +1124,8 @@ export const duas: Dua[] = [
       "pardon",
       "afuw",
     ],
+    context_en: "Within Islamic theology, a distinction is made between Maghfirah (concealing sin) and 'Afw (erasing sin entirely). This supplication, taught specifically for Laylatul Qadr, asks for the complete, irrevocable erasure of sins, appealing to the Divine attribute of loving to pardon.",
+    context_bn: "মাগফিরাত মানে পাপ গোপন রাখা, আর 'আফ্উ' মানে পাপকে সম্পূর্ণ মুছে ফেলা। লাইলাতুল কদরের এই বিশেষ দোয়াটি আল্লাহর কাছে পরিপূর্ণ ক্ষমার আবদার করে—এমন ক্ষমা যা পাপের কোনো চিহ্ন রাখে না।"
   },
   {
     id: "s-ram-007",
@@ -906,6 +1178,8 @@ export const duas: Dua[] = [
       "meal",
       "eating",
     ],
+    context_en: "A simple yet profound invocation that elevates the basic biological act of consumption into an act of worship. It reminds the believer that sustenance is a divine gift.",
+    context_bn: "খাবারের শুরুতে 'বিসমিল্লাহ' বলা সাধারণ খাওয়াকে ইবাদতে পরিণত করে। এটি মনে করিয়ে দেয় যে জীবিকা কেবল আল্লাহর দান।"
   },
   {
     id: "s-food-002",
@@ -996,7 +1270,7 @@ export const duas: Dua[] = [
     transliteration:
       "Allahumma inni astakhiruka bi'ilmika, wa astaqdiruka biqudratika, wa as'aluka min fadlikal-azim. Fa innaka taqdiru wa la aqdiru, wa ta'lamu wa la a'lamu, wa anta allamul ghuyub. Allahumma in kunta ta'lamu anna hadhal amra khayrun li fi dini wa ma'ashi wa aqibati amri faqdurhu li wa yassirhu li thumma barik li fihi. Wa in kunta ta'lamu anna hadhal amra sharrun li fi dini wa ma'ashi wa aqibati amri fasrifhu anni wasrifni anhu waqdur liyal khayra haythu kana thumma ardini bih.",
     meaning_bn:
-      "হে আল্লাহ! আমি আপনার জ্ঞানের মাধ্যমে আপনার কাছে কল্যাণ চাই, আপনার শক্তির মাধ্যমে শক্তি চাই এবং আপনার মহাঅনুগ্রহ থেকে চাই। কারণ আপনি সক্ষম আর আমি অক্ষম, আপনি জানেন আর আমি জানি না, আর আপনি অদৃশ্য বিষয়ের পরিপূর্ণ জ্ঞানী। হে আল্লাহ! আপনি যদি জানেন এই কাজটি আমার দ্বীন, জীবিকা এবং ভবিষ্যতের জন্য কল্যাণকর, তাহলে এটি আমার জন্য নির্ধারণ করুন, সহজ করুন এবং বরকত দিন। আর যদি জানেন এটি আমার জন্য ক্ষতিকর, তাহলে এটিকে আমার থেকে এবং আমাকে এটি থেকে দূরে রাখুন। আর যেখানেই কল্যাণ থাকুক তা আমার জন্য নির্ধারণ করুন এবং তাতে আমাকে সন্তুষ্ট রাখুন।",
+      "হে আল্লাহ! আমি আপনার জ্ঞানের মাধ্যমে আপনার কাছে কল্যাণ চাই, আপনার শক্তির মাধ্যমে শক্তি চাই এবং আপনার মহাঅনুগ্রহ থেকে চাই। কারণ আপনি সক্ষম আর আমি অক্ষম, আপনি জানেন আর আমি জানি না, আর আপনি অদৃশ্য বিষয়ের পরিপূর্ণ জ্ঞানী। হে আল্লাহ! আপনি যদি জানেন এই কাজটি আমার দ্বীন, জীবিকা এবং ভবিষ্যতের জন্য কল্যাণকর, তাহলে এটি আমার জন্য নির্ধারণ করুন, সহজ করুন এবং বরকত দিন। আর যদি জানেন এটি আমার জন্য ক্ষতিকর, তাহলে এটিকে আমার জন্য এবং আমাকে এটি থেকে দূরে রাখুন। আর যেখানেই কল্যাণ থাকুক তা আমার জন্য নির্ধারণ করুন এবং তাতে আমাকে সন্তুষ্ট রাখুন।",
     meaning_en:
       "O Allah! I seek the counsel of Your knowledge, and I seek the help of Your omnipotence, and I beseech You for Your magnificent grace. Surely, You are capable and I am not. You know and I know not, and You are the Knower of the unseen. O Allah! If You know this matter to be good for my religion, livelihood and its consequences then ordain it for me, make it easy for me, and bless it for me. And if You know this matter to be ill for my religion, livelihood and its consequences, then turn it away from me, and turn me away from it, and ordain goodness for me wherever it may be, and make me pleased with it.",
     tags: [
@@ -1008,6 +1282,8 @@ export const duas: Dua[] = [
       "jabir",
       "choice",
     ],
+    context_en: "The core theological mechanic of the Istikhara is the systematic dismantling of the illusion of absolute human agency. By declaring 'You know and I do not', the petitioner preemptively insulates themselves against post-decision regret. It asks for three things: decree (execution), facilitation (logistics), and blessing (sustainability).",
+    context_bn: "ইস্তিখারা মানুষের অহংকার দূর করে এবং আল্লাহর ওপর নির্ভরতা শেখায়। এর মাধ্যমে বান্দা স্বীকার করে যে, ভবিষ্যতের জ্ঞান একমাত্র আল্লাহর কাছেই আছে। সঠিক সিদ্ধান্ত নেওয়ার জন্য এর চেয়ে উত্তম কোনো মাধ্যম নেই।"
   },
 
   // ─── SUNNAH: Travel & Protection ─────────────────────────────────────────
@@ -1094,6 +1370,24 @@ export const duas: Dua[] = [
       "quran 43:13",
       "safar",
     ],
+  },
+  {
+    id: "s-trv-004",
+    slug: "travel-ascent-descent",
+    category: "sunnah",
+    subcategory: "travel",
+    subcategory_label_en: "Travel & Protection",
+    subcategory_label_bn: "সফর ও সুরক্ষা",
+    purpose_en: "Declarations during Travel and Ascent",
+    purpose_bn: "সফরে চড়াই-উতরাইয়ের ধিকির",
+    source: "Hadith: Sahih al-Bukhari 1080",
+    arabic: "اللَّهُ أَكْبَرُ / سُبْحَانَ اللَّهِ",
+    transliteration: "Allahu Akbar / Subhan Allah.",
+    meaning_bn: "আল্লাহ সর্বশ্রেষ্ঠ (উঁচুতে ওঠার সময়) / আল্লাহ পবিত্র-মহান (নিচে নামার সময়)।",
+    meaning_en: "Allah is the Greatest (Upon ascending) / Allah is free from imperfection (Upon descending).",
+    tags: ["travel", "dhikr", "mountain", "plane", "ascent"],
+    context_en: "Declaring 'Allahu Akbar' when physically ascending reminds the ego that regardless of elevation, the Divine remains superior. 'Subhan Allah' during descent negates any concept of lowliness from the Creator.",
+    context_bn: "ওপরে ওঠার সময় 'আল্লাহু আকবার' বলা মানুষের অহংকার চূর্ণ করে, আর নিচে নামার সময় 'সুবহানাল্লাহ' বলা আল্লাহর পবিত্রতা ঘোষণা করে।"
   },
 ];
 
@@ -1226,6 +1520,42 @@ export const subcategoryMeta: SubcategoryMeta[] = [
     slug: "travel",
     label_en: "Travel & Protection",
     label_bn: "সফর ও সুরক্ষা",
+    category: "sunnah",
+  },
+  // New Subcategories
+  {
+    id: "repentance",
+    slug: "repentance",
+    label_en: "Repentance & Forgiveness",
+    label_bn: "তাওবা ও ক্ষমা",
+    category: "sunnah",
+  },
+  {
+    id: "protection",
+    slug: "protection",
+    label_en: "Protection & Safety",
+    label_bn: "সুরক্ষা ও নিরাপত্তা",
+    category: "sunnah",
+  },
+  {
+    id: "healing",
+    slug: "healing",
+    label_en: "Health & Healing",
+    label_bn: "স্বাস্থ্য ও আরোগ্য",
+    category: "sunnah",
+  },
+  {
+    id: "sustenance",
+    slug: "sustenance",
+    label_en: "Business & Wealth",
+    label_bn: "ব্যবসা ও সম্পদ",
+    category: "sunnah",
+  },
+  {
+    id: "wisdom",
+    slug: "wisdom",
+    label_en: "Wisdom & Guidance",
+    label_bn: "প্রজ্ঞা ও হেদায়েত",
     category: "sunnah",
   },
 ];

@@ -13,7 +13,18 @@ export type DuaSubcategory =
   | "istikhara"
   | "travel"
   | "sahabah"
-  | "tabiun";
+  | "tabiun"
+  | "healing"
+  | "sustenance"
+  | "sunnah-healing"
+  |"sunnah-sustenance"
+  | "sunnah-travel"
+  | "sunnah-family"
+  | "sunnah-daily-life"
+  | "sunnah-morning-evening"
+  |"sunnah-wisdom"
+  |"sunnah-protection"
+  |"sunnah-repentance";
 
 export interface Dua {
   id: string;
@@ -30,6 +41,10 @@ export interface Dua {
   meaning_bn: string;
   meaning_en: string;
   tags: string[];
+  /** Optional theological/spiritual context and significance of the dua (English) */
+  context_en?: string;
+  /** Optional theological/spiritual context and significance of the dua (Bangla) */
+  context_bn?: string;
 }
 
 export interface CategoryMeta {
