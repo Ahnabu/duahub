@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --background: 252 252 249;
+    --foreground: 15 15 15;
+    --muted: 240 240 235;
+    --muted-foreground: 100 100 95;
+    --border: 224 224 218;
+    --card: 255 255 255;
+    --primary: 22 101 52;
+    --primary-foreground: 255 255 255;
+    --accent: 161 98 7;
+    --ring: 22 101 52;
+  }
+
+  .dark {
+    --background: 13 13 13;
+    --foreground: 240 240 235;
+    --muted: 28 28 28;
+    --muted-foreground: 140 140 135;
+    --border: 38 38 38;
+    --card: 20 20 20;
+    --primary: 74 222 128;
+    --primary-foreground: 15 15 15;
+    --accent: 251 191 36;
+    --ring: 74 222 128;
+  }
+
+  * {
+    border-color: rgb(var(--border));
+  }
+
+  body {
+    background-color: rgb(var(--background));
+    color: rgb(var(--foreground));
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+
+  /* Arabic script */
+  .arabic {
+    font-family: "Noto Naskh Arabic", "Amiri", "Traditional Arabic", serif;
+    direction: rtl;
+    line-height: 2;
+    letter-spacing: 0.02em;
+  }
+
+  /* Bangla script */
+  .bangla {
+    font-family: "Noto Sans Bengali", "SolaimanLipi", "Kalpurush", sans-serif;
+    line-height: 1.8;
+  }
+}
+
+@layer utilities {
+  .bg-background { background-color: rgb(var(--background)); }
+  .text-foreground { color: rgb(var(--foreground)); }
+  .bg-muted { background-color: rgb(var(--muted)); }
+  .text-muted-foreground { color: rgb(var(--muted-foreground)); }
+  .border-border { border-color: rgb(var(--border)); }
+  .bg-card { background-color: rgb(var(--card)); }
+  .bg-primary { background-color: rgb(var(--primary)); }
+  .text-primary { color: rgb(var(--primary)); }
+  .text-primary-foreground { color: rgb(var(--primary-foreground)); }
+  .text-accent { color: rgb(var(--accent)); }
+  .ring-ring { --tw-ring-color: rgb(var(--ring)); }
+  .focus-ring:focus {
+    outline: none;
+  }
+  .focus-ring:focus-visible {
+    outline: 2px solid rgb(var(--ring));
+    outline-offset: 2px;
+  }
+}
