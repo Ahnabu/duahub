@@ -33,3 +33,6 @@ next-env.d.ts
 
 # Windows reserved device names
 nul
+
+# Documentation / reference markdown files
+*.md

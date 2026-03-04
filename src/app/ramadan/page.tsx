@@ -1,5 +1,5 @@
-import type { Metadata } from "next";
 import { RamadanPageClient } from "@/components/RamadanPageClient";
+import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Ramadan Duas – Iftar, Sehri, Taraweeh & Ashra Supplications | DuaHub",
