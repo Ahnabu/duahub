@@ -34,8 +34,9 @@ next-env.d.ts
 # Windows reserved device names
 nul
 
-# Documentation / reference markdown files
+# Documentation / reference markdown files (allow README)
 *.md
+!README.md
 
 # Data analysis / migration scripts (temporary)
 scripts/
