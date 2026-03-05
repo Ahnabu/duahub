@@ -42,7 +42,7 @@ export function DuaPageClient({ slug }: { slug: string }) {
             <span>/</span>
           </>
         )}
-        <span className="text-foreground truncate max-w-[200px]">
+        <span className="text-foreground truncate max-w-50">
           {isBn ? dua.purpose_bn : dua.purpose_en}
         </span>
       </nav>
