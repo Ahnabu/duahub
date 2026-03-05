@@ -7,6 +7,7 @@ import type { Dua } from "@/types/dua";
 import { useLanguage } from "@/context/LanguageContext";
 import { cn } from "@/lib/utils";
 import { useBookmarks } from "@/hooks/useBookmarks";
+import { ShareMenu } from "@/components/ShareMenu";
 
 interface DuaCardProps {
   dua: Dua;
@@ -63,6 +64,11 @@ export function DuaCard({ dua, expanded = false }: DuaCardProps) {
           >
             {copied ? <Check className="w-3.5 h-3.5 text-primary" /> : <Copy className="w-3.5 h-3.5" />}
           </button>
+          <ShareMenu
+            url={`${process.env.NEXT_PUBLIC_SITE_URL ?? ""}/dua/${dua.slug}`}
+            title={purposeLabel}
+            text={`${dua.arabic}\n\n${dua.transliteration}\n\n${meaningLabel}`}
+          />
           <button
             onClick={() => toggle(dua.id)}
             aria-label={bookmarked ? "Remove bookmark" : "Bookmark dua"}

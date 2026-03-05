@@ -104,7 +104,8 @@ export function ShareMenu({ url, title, text }: ShareMenuProps) {
     return () => document.removeEventListener("keydown", handler);
   }, [open]);
 
-  const pageUrl = url ?? (typeof window !== "undefined" ? window.location.href : "");
+  const siteBase = process.env.NEXT_PUBLIC_SITE_URL ?? (typeof window !== "undefined" ? window.location.origin : "");
+  const pageUrl = url && url.startsWith("http") ? url : `${siteBase}${url ?? (typeof window !== "undefined" ? window.location.pathname : "")}`;
   const shareText = `${title}\n\n${text}`;
 
   function buildLink(id: string) {
@@ -112,13 +113,13 @@ export function ShareMenu({ url, title, text }: ShareMenuProps) {
     const encodedText = encodeURIComponent(shareText);
     switch (id) {
       case "whatsapp":
-        return `https://wa.me/?text=${encodeURIComponent(shareText + "\n" + pageUrl)}`;
+        return `https://wa.me/?text=${encodeURIComponent(title + "\n\n" + pageUrl)}`;
       case "telegram":
         return `https://t.me/share/url?url=${encoded}&text=${encodeURIComponent(title)}`;
       case "twitter":
-        return `https://twitter.com/intent/tweet?url=${encoded}&text=${encodeURIComponent(title)}`;
+        return `https://x.com/intent/tweet?url=${encoded}&text=${encodeURIComponent(title)}`;
       case "facebook":
-        return `https://www.facebook.com/sharer/sharer.php?u=${encoded}`;
+        return `https://www.facebook.com/sharer/sharer.php?u=${encoded}&quote=${encodeURIComponent(title)}`;
       case "email":
         return `mailto:?subject=${encodeURIComponent(title)}&body=${encodedText}%0A%0A${encoded}`;
       default:

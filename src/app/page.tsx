@@ -6,8 +6,9 @@ import { CategoryCard } from "@/components/CategoryCard";
 import { DuaCard } from "@/components/DuaCard";
 import { SearchBar } from "@/components/SearchBar";
 import Link from "next/link";
-import { Sparkles } from "lucide-react";
+import { Sparkles, Bookmark } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { useBookmarks } from "@/hooks/useBookmarks";
 
 // compute category counts
 const categoryCounts = Object.fromEntries(
@@ -24,6 +25,8 @@ const featuredDuas = categoryMeta
 
 export default function HomePage() {
   const { isBn } = useLanguage();
+  const { bookmarkedIds } = useBookmarks();
+  const bookmarkedDuas = duas.filter((d) => bookmarkedIds.includes(d.id));
 
   return (
     <div className="max-w-5xl mx-auto px-4 py-8 space-y-12">
@@ -108,26 +111,30 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Quick Stats */}
-      <section className="grid grid-cols-3 gap-3 text-center">
-        {categoryMeta.map((cat) => (
-          <div
-            key={cat.id}
-            className="bg-card border border-border rounded-xl p-3 sm:p-4"
-          >
-            <p className="text-2xl sm:text-3xl font-bold text-primary">
-              {categoryCounts[cat.id]}
-            </p>
-            <p
-              className={cn(
-                "text-xs sm:text-sm text-muted-foreground mt-1",
-                isBn ? "bangla" : ""
-              )}
-            >
-              {isBn ? cat.label_bn : cat.label_en}
+      {/* Bookmarked Duas */}
+      <section>
+        <div className="flex items-center justify-between mb-4">
+          <h2 className={cn("text-xl font-bold flex items-center gap-2", isBn ? "bangla" : "")}>
+            <Bookmark className="w-5 h-5 text-primary" />
+            {isBn ? "সংরক্ষিত দোয়া" : "Bookmarked Duas"}
+          </h2>
+        </div>
+        {bookmarkedDuas.length > 0 ? (
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            {bookmarkedDuas.map((dua) => (
+              <DuaCard key={dua.id} dua={dua} />
+            ))}
+          </div>
+        ) : (
+          <div className="flex flex-col items-center justify-center py-10 text-center bg-card border border-border rounded-2xl">
+            <Bookmark className="w-10 h-10 text-muted-foreground/40 mb-3" />
+            <p className={cn("text-sm text-muted-foreground", isBn ? "bangla" : "")}>
+              {isBn
+                ? "কোনো দোয়া সংরক্ষিত নেই। যেকোনো দোয়ার বুকমার্ক আইকনে ক্লিক করুন।"
+                : "No bookmarked duas yet. Click the bookmark icon on any dua to save it here."}
             </p>
           </div>
-        ))}
+        )}
       </section>
     </div>
   );
