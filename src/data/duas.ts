@@ -788,23 +788,23 @@ export const duas: Dua[] = [
 
   // ─── SUNNAH: Sustenance & Wisdom (New Categorization) ────────────────────
   {
-    id: "s-sus-001",
-    slug: "ethical-sustenance-halal",
-    category: "sunnah",
-    subcategory: "sustenance",
-    subcategory_label_en: "Business & Wealth",
-    subcategory_label_bn: "ব্যবসা ও সম্পদ",
-    purpose_en: "Seeking Lawful Provision and Total Independence",
-    purpose_bn: "হালাল রিজিক ও আত্মনির্ভরশীলতার দোয়া",
-    source: "Hadith: Sunan at-Tirmidhi",
-    arabic: "اَلlّٰهُمَّ اكْفِنِي بِحَلَالِكَ عَنْ حَرَامِكَ وَأَغْنِنِي بِفَضْلِكَ عَمَّنْ سِوَاكَ",
-    transliteration: "Allahumma akfini bihalalika an haramika, wa aghnini bifadlika 'amman siwak.",
-    meaning_bn: "হে আল্লাহ! আপনার হালাল রিজিক দিয়ে আমাকে হারাম থেকে বাঁচান, এবং আপনার অনুগ্রহ দিয়ে আপনি ছাড়া অন্য সকলের মুখাপেক্ষী হওয়া থেকে আমাকে মুক্ত রাখুন।",
-    meaning_en: "O Allah, suffice me with Your lawful provision and save me from the unlawful, and enrich me with Your favors so that I am not dependent on anyone besides You.",
-    tags: ["sustenance", "debt", "halal", "wealth", "independence"],
-    context_en: "This requests sufficiency through strictly ethical means and liberation from dependence on others, preserving human dignity by eliminating subservience to anyone other than the Creator.",
-    context_bn: "এই দোয়াটি হারাম উপার্জন থেকে বেঁচে থাকা এবং মানুষের কাছে হাত পাতা থেকে মুক্তি চাওয়ার জন্য অত্যন্ত কার্যকরী। এটি আত্মসম্মান বোধ বজায় রাখতে সাহায্য করে।"
-  },
+  id: "s-pro-001",
+  slug: "protection-useless-knowledge",
+  category: "sunnah",
+  subcategory: "protection",
+  subcategory_label_en: "Protection",
+  subcategory_label_bn: "সুরক্ষা",
+  purpose_en: "Protection from harmful states of the soul",
+  purpose_bn: "ক্ষতিকর অবস্থা থেকে আশ্রয় প্রার্থনা",
+  source: "Hadith: Sahih Muslim 2722",
+  arabic: "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنْ عِلْمٍ لَا يَنْفَعُ...",
+  transliteration: "Allahumma inni a'udhu bika min 'ilmin la yanfa'.",
+  meaning_en: "O Allah, I seek refuge in You from knowledge that does not benefit, a heart that does not humble itself, a soul that is never satisfied, and a supplication that is not answered.",
+  meaning_bn: "হে আল্লাহ! আমি আপনার কাছে আশ্রয় চাই এমন জ্ঞান থেকে যা উপকারী নয়, এমন অন্তর থেকে যা বিনয়ী নয়, এমন নফস থেকে যা তৃপ্ত নয় এবং এমন দোয়া থেকে যা কবুল হয় না।",
+  tags: ["protection", "knowledge", "heart"],
+  context_en: "A powerful supplication covering intellectual, spiritual, and emotional protection.",
+  context_bn: "এটি মানুষের জ্ঞান, অন্তর ও আত্মার সুরক্ষার জন্য গুরুত্বপূর্ণ দোয়া।"
+},
   {
     id: "s-sus-002",
     slug: "beneficial-knowledge-sustenance",
@@ -841,6 +841,77 @@ export const duas: Dua[] = [
     context_en: "The alleviation of debt is viewed as the restoration of liberty. This plea encompasses not just financial debt but all moral and social obligations owed to creation.",
     context_bn: "ঋণ মানুষকে পরাধীন করে রাখে। এই দোয়াটি কেবল আর্থিক ঋণ নয়, বরং মানুষ ও সৃষ্টির প্রতি সকল প্রকার দায়বদ্ধতা থেকে মুক্তির জন্য প্রার্থনা।"
   },
+  {
+  id: "s-fin-001",
+  slug: "protection-debt",
+  category: "sunnah",
+  subcategory: "sustenance",
+  subcategory_label_en: "Business & Wealth",
+  subcategory_label_bn: "ব্যবসা ও সম্পদ",
+  purpose_en: "Seeking protection from debt",
+  purpose_bn: "ঋণ থেকে আশ্রয় প্রার্থনা",
+  source: "Hadith: Sahih al-Bukhari",
+  arabic: "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْمَأْثَمِ وَالْمَغْرَمِ",
+  transliteration: "Allahumma inni a'udhu bika minal ma'thami wal maghram.",
+  meaning_en: "O Allah, I seek refuge in You from sin and debt.",
+  meaning_bn: "হে আল্লাহ! আমি আপনার কাছে পাপ ও ঋণ থেকে আশ্রয় চাই।",
+  tags: ["debt", "wealth", "protection"],
+  context_en: "The Prophet ﷺ often sought refuge from debt because it burdens the soul and affects character.",
+  context_bn: "ঋণ মানুষের চরিত্র ও জীবনকে কঠিন করে তোলে বলে রাসুল ﷺ এ থেকে আশ্রয় চাইতেন।"
+},
+{
+  id: "s-akh-001",
+  slug: "asking-for-jannah",
+  category: "sunnah",
+  subcategory: "daily-life",
+  subcategory_label_en: "Hereafter",
+  subcategory_label_bn: "আখিরাত",
+  purpose_en: "Seeking Paradise and protection from Hell",
+  purpose_bn: "জান্নাত কামনা ও জাহান্নাম থেকে আশ্রয়",
+  source: "Hadith: Abu Dawud",
+  arabic: "اللَّهُمَّ إِنِّي أَسْأَلُكَ الْجَنَّةَ وَأَعُوذُ بِكَ مِنَ النَّارِ",
+  transliteration: "Allahumma inni as'aluka al-jannah wa a'udhu bika min an-nar.",
+  meaning_en: "O Allah, I ask You for Paradise and seek refuge in You from the Fire.",
+  meaning_bn: "হে আল্লাহ! আমি আপনার কাছে জান্নাত চাই এবং জাহান্নামের আগুন থেকে আশ্রয় চাই।",
+  tags: ["jannah", "akhirah", "protection"],
+  context_en: "One of the simplest and most comprehensive supplications for the Hereafter.",
+  context_bn: "আখিরাতের জন্য সবচেয়ে সংক্ষিপ্ত ও গুরুত্বপূর্ণ দোয়াগুলোর একটি।"
+},
+{
+  id: "s-char-001",
+  slug: "good-character",
+  category: "sunnah",
+  subcategory: "character",
+  subcategory_label_en: "Character & Ethics",
+  subcategory_label_bn: "চরিত্র ও নৈতিকতা",
+  purpose_en: "Seeking the best character",
+  purpose_bn: "উত্তম চরিত্রের দোয়া",
+  source: "Hadith: Sahih Muslim",
+  arabic: "اللَّهُمَّ اهْدِنِي لِأَحْسَنِ الْأَخْلَاقِ",
+  transliteration: "Allahumma ihdini li ahsanil akhlaq.",
+  meaning_en: "O Allah, guide me to the best character.",
+  meaning_bn: "হে আল্লাহ! আমাকে উত্তম চরিত্রের পথে পরিচালিত করুন।",
+  tags: ["character", "ethics"],
+  context_en: "Islam places immense emphasis on good character.",
+  context_bn: "ইসলামে উত্তম চরিত্র অত্যন্ত গুরুত্বপূর্ণ।"
+},{
+  id: "s-health-001",
+  slug: "ask-for-afiyah",
+  category: "sunnah",
+  subcategory: "healing",
+  subcategory_label_en: "Health & Wellbeing",
+  subcategory_label_bn: "স্বাস্থ্য ও কল্যাণ",
+  purpose_en: "Seeking wellbeing and protection",
+  purpose_bn: "সুস্থতা ও নিরাপত্তার দোয়া",
+  source: "Hadith: Tirmidhi",
+  arabic: "اللَّهُمَّ إِنِّي أَسْأَلُكَ الْعَافِيَةَ",
+  transliteration: "Allahumma inni as'aluka al-afiyah.",
+  meaning_en: "O Allah, I ask You for wellbeing.",
+  meaning_bn: "হে আল্লাহ! আমি আপনার কাছে নিরাপত্তা ও সুস্থতা চাই।",
+  tags: ["health", "wellbeing"],
+  context_en: "The Prophet ﷺ said that after faith nothing better is given than wellbeing.",
+  context_bn: "ঈমানের পরে মানুষের জন্য সবচেয়ে বড় নিয়ামত হলো সুস্থতা।"
+},
   {
     id: "s-wis-001",
     slug: "anchoring-heart-muqallib",
@@ -1672,24 +1743,54 @@ export const duas: Dua[] = [
 
 // ─── QURAN: Musa's Supplication Before Pharaoh ───────────────────────────────
 {
-  id: 'q-wis-musa-001',
-  slug: 'musa-expand-chest-quran-20-25-28',
-  category: 'quran',
-  subcategory: 'wisdom',
-  subcategory_label_en: 'Wisdom & Guidance',
-  subcategory_label_bn: 'প্রজ্ঞা ও হেদায়েত',
-  purpose_en: "Prophet Musa's (AS) supplication asking for clarity and ease before a difficult task",
-  purpose_bn: 'কঠিন দায়িত্বের আগে মুসা (আ.)-এর সহজতা ও স্পষ্টতার জন্য দোয়া',
-  source: "Qur'an 20:25–28",
-  arabic: 'رَبِّ اشْرَحْ لِي صَدْرِي وَيَسِّرْ لِي أَمْرِي وَاحْلُلْ عُقْدَةً مِّن لِّسَانِي يَفْقَهُوا قَوْلِي',
-  transliteration: 'Rabbi ishrah li sadri wa yassir li amri wahlul uqdatan min lisani yafqahu qawli.',
-  meaning_en: 'My Lord, expand for me my chest [with assurance] and ease for me my task, and untie the knot from my tongue that they may understand my speech.',
-  meaning_bn: 'হে আমার রব! আমার বুককে প্রশস্ত করুন, আমার কাজ সহজ করুন এবং আমার জিহ্বার জড়তা খুলে দিন যাতে তারা আমার কথা বুঝতে পারে।',
-  tags: ['quran', 'wisdom', 'prophet', 'musa', 'guidance', 'ease', 'speech'],
-  context_en: "Allah commanded Musa (AS) to go to Pharaoh — one of the most powerful and tyrannical rulers in history — and call him to Islam. Before undertaking this seemingly impossible mission, Musa made this four-part supplication: (1) expand my chest (confidence), (2) ease my task (divine assistance), (3) remove the knot from my tongue (clear speech), (4) so they may understand me (effective communication). This dua is widely recited before difficult conversations, public speaking, exams, or any task requiring clarity and courage.",
-  context_bn: "আল্লাহ মুসা (আ.)-কে ফেরাউনের কাছে যেতে এবং তাকে ইসলামের দাওয়াত দিতে আদেশ করলেন — ইতিহাসের অন্যতম শক্তিশালী ও অত্যাচারী শাসকের কাছে। এই অসম্ভব মনে হওয়া মিশনের আগে মুসা চার অংশের দোয়া করলেন: (১) বুক প্রশস্ত করুন (আত্মবিশ্বাস), (২) কাজ সহজ করুন (ঐশী সাহায্য), (৩) জিহ্বার জড়তা দূর করুন (স্পষ্ট বক্তৃতা), (৪) যাতে তারা বুঝতে পারে (কার্যকর যোগাযোগ)। কঠিন কথোপকথন, পাবলিক স্পিকিং, পরীক্ষা বা সাহস ও স্পষ্টতা প্রয়োজন এমন যেকোনো কাজের আগে এই দোয়া বহুলভাবে পড়া হয়।",
+  id: "q-wis-001",
+  slug: "rabbi-zidni-ilma",
+  category: "quran",
+  subcategory: "knowledge",
+  subcategory_label_en: "Knowledge & Wisdom",
+  subcategory_label_bn: "জ্ঞান ও প্রজ্ঞা",
+  purpose_en: "Seeking increase in knowledge",
+  purpose_bn: "জ্ঞান বৃদ্ধির জন্য দোয়া",
+  source: "Quran: Surah Ta-Ha, 20:114",
+  arabic: "رَبِّ زِدْنِي عِلْمًا",
+  transliteration: "Rabbi zidni ilma.",
+  meaning_en:
+    "My Lord, increase me in knowledge.",
+  meaning_bn:
+    "হে আমার প্রতিপালক! আমার জ্ঞান আরও বৃদ্ধি করে দিন।",
+  tags: ["knowledge", "learning", "education", "wisdom", "students"],
+  context_en:
+    "This is the only supplication in the Qur'an where the Prophet ﷺ was directly instructed by Allah to ask for an increase in something — knowledge. It highlights the supreme value of beneficial knowledge in Islam.",
+  context_bn:
+    "কুরআনে এটিই একমাত্র দোয়া যেখানে আল্লাহ সরাসরি নবী ﷺ-কে কোনো কিছুর বৃদ্ধি প্রার্থনা করতে বলেছেন, আর সেটি হলো জ্ঞান। এটি ইসলামে উপকারী জ্ঞানের মর্যাদা ও গুরুত্বকে স্পষ্টভাবে তুলে ধরে।"
 },
 
+// ─── QURAN: Ibrahim's Supplication during the period of the Prophet’s migration ───────────────────────────────
+
+{
+  id: "q-guid-002",
+  slug: "rabbi-adkhilni-mudkhala-sidqin",
+  category: "quran",
+  subcategory: "guidance",
+  subcategory_label_en: "Guidance & Integrity",
+  subcategory_label_bn: "হেদায়েত ও সততা",
+  purpose_en: "Seeking honorable entrance, exit, and divine support",
+  purpose_bn: "সম্মানজনক প্রবেশ, প্রস্থান ও আল্লাহর সাহায্যের প্রার্থনা",
+  source: "Quran: Surah Al-Isra, 17:80",
+  arabic:
+    "رَبِّ أَدْخِلْنِي مُدْخَلَ صِدْقٍ وَأَخْرِجْنِي مُخْرَجَ صِدْقٍ وَاجْعَل لِّي مِن لَّدُنكَ سُلْطَانًا نَّصِيرًا",
+  transliteration:
+    "Rabbi adkhilni mudkhala sidqin wa akhrijni mukhraja sidqin waj'al li min ladunka sultanan nasira.",
+  meaning_en:
+    "My Lord, grant me an honorable entrance and an honorable exit, and grant me from Yourself a supporting authority.",
+  meaning_bn:
+    "হে আমার প্রতিপালক! আমাকে সত্য ও মর্যাদার সাথে প্রবেশ করান এবং সত্য ও মর্যাদার সাথে বের করুন, এবং আপনার পক্ষ থেকে আমাকে শক্তিশালী সহায়তা দান করুন।",
+  tags: ["guidance", "integrity", "success", "divine-support"],
+  context_en:
+    "Scholars explain that this supplication was revealed during the period of the Prophet’s migration from Makkah. It expresses a profound request that every beginning and ending in life be based on truth, sincerity, and divine support.",
+  context_bn:
+    "মুফাসসিরগণ ব্যাখ্যা করেন যে এই দোয়াটি নবী ﷺ-এর মক্কা থেকে মদিনায় হিজরতের সময় নাযিল হয়। এতে জীবনের প্রতিটি শুরু ও সমাপ্তি যেন সত্য, সততা ও আল্লাহর সাহায্যের সাথে হয়—এই গভীর প্রার্থনা প্রকাশ পেয়েছে।"
+},
 // ─── SUNNAH: Mu'adh's Dua After Prayer ───────────────────────────────────────
 {
   id: 's-sal-dhikr-001',
@@ -1709,7 +1810,41 @@ export const duas: Dua[] = [
   context_en: "Mu'adh ibn Jabal (رضي الله عنه) narrated that the Prophet ﷺ took his hand one day and said: 'O Mu'adh, by Allah I love you.' The Prophet ﷺ then advised him: 'Do not leave reciting after every prayer: Allahumma a'inni...' This extraordinary introduction — expressing love before giving advice — shows the significance of this dua. It combines three ascending levels of devotion: dhikr (remembrance), shukr (gratitude), and husn al-ibadah (excellence in worship). It is sunnah to recite it as a du'a at the end of every salah before the final tasleem.",
   context_bn: "মু'আয ইবন জাবাল (রাদিয়াল্লাহু আনহু) বর্ণনা করেন, একদিন নবী ﷺ তার হাত ধরে বললেন: 'হে মু'আয, আল্লাহর কসম, আমি তোমাকে ভালোবাসি।' তারপর তিনি উপদেশ দিলেন: 'প্রতিটি নামাজের পর এই দোয়া পড়তে ভুলো না।' এই অসাধারণ ভূমিকা — উপদেশ দেওয়ার আগে ভালোবাসা প্রকাশ করা — এই দোয়ার গুরুত্ব নির্দেশ করে। এতে তিনটি ধাপে উৎকর্ষতার স্তর রয়েছে: যিকর (স্মরণ), শুকর (কৃতজ্ঞতা) এবং হুসনুল ইবাদাহ (ইবাদতের উৎকর্ষতা)। প্রতিটি নামাজের শেষে সালাম ফেরানোর আগে এটি পড়া সুন্নত।",
 },
-
+{
+  id: "s-ease-001",
+  slug: "ease-affairs",
+  category: "sunnah",
+  subcategory: "daily-life",
+  subcategory_label_en: "Life Affairs",
+  subcategory_label_bn: "জীবনের বিষয়",
+  purpose_en: "Seeking ease in life matters",
+  purpose_bn: "জীবনের কাজে সহজতার দোয়া",
+  source: "Hadith: Ibn Hibban",
+  arabic: "اللَّهُمَّ لَا سَهْلَ إِلَّا مَا جَعَلْتَهُ سَهْلًا",
+  transliteration: "Allahumma la sahla illa ma ja'altahu sahla.",
+  meaning_en: "O Allah, nothing is easy except what You make easy.",
+  meaning_bn: "হে আল্লাহ! আপনি সহজ না করলে কোনো কিছুই সহজ নয়।",
+  tags: ["ease", "life"],
+  context_en: "A powerful reminder that ease comes only from Allah.",
+  context_bn: "সব সহজতা আল্লাহর পক্ষ থেকেই আসে।"
+},{
+  id: "s-pro-002",
+  slug: "protection-from-evil",
+  category: "sunnah",
+  subcategory: "protection",
+  subcategory_label_en: "Protection",
+  subcategory_label_bn: "সুরক্ষা",
+  purpose_en: "Seeking protection from evil deeds",
+  purpose_bn: "মন্দ কাজ থেকে আশ্রয় চাওয়া",
+  source: "Hadith: Sahih Muslim",
+  arabic: "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنْ شَرِّ مَا عَمِلْتُ",
+  transliteration: "Allahumma inni a'udhu bika min sharri ma 'amiltu.",
+  meaning_en: "O Allah, I seek refuge in You from the evil of what I have done.",
+  meaning_bn: "হে আল্লাহ! আমি আমার করা মন্দ কাজের অনিষ্ট থেকে আপনার কাছে আশ্রয় চাই।",
+  tags: ["protection", "sins"],
+  context_en: "A supplication asking protection from the consequences of one's own actions.",
+  context_bn: "নিজের কর্মের ক্ষতিকর পরিণতি থেকে রক্ষা চাওয়ার দোয়া।"
+}
 ];
 
 export const categoryMeta: CategoryMeta[] = [
