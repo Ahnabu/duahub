@@ -9,8 +9,8 @@ export const duas: Dua[] = [
     subcategory: "repentance",
     subcategory_label_en: "Repentance & Forgiveness",
     subcategory_label_bn: "তাওবা ও ক্ষমা",
-    purpose_en: "Repentance for transgression (Adam & Hawwa's Dua)",
-    purpose_bn: "নিজের ভুলের জন্য অনুশোচনা (আদম ও হাওয়ার দোয়া)",
+    purpose_en: "Repentance for transgression (Adam (AS) & Hawwa's Dua)",
+    purpose_bn: "নিজের ভুলের জন্য অনুশোচনা (আদম (আ.) ও হাওয়ার দোয়া)",
     source: "Quran: Surah Al-A'raf, 7:23",
     arabic:
       "رَبَّنَا ظَلَمْنَا أَنْفُسَنَا وَإِنْ لَمْ تَغْفِرْ لَنَا وَتَرْحَمْنَا لَنَكُونَنَّ مِنَ الْخَاسِرِينَ",
@@ -30,9 +30,9 @@ export const duas: Dua[] = [
     subcategory_label_en: "Repentance & Forgiveness",
     subcategory_label_bn: "তাওবা ও ক্ষমা",
     purpose_en:
-      "Seeking forgiveness for self, parents, and the believers (Nuh's Dua)",
+      "Seeking forgiveness for self, parents, and the believers (Nuh (AS)'s Dua)",
     purpose_bn:
-      "নিজ, পিতামাতা ও উম্মাহর জন্য ক্ষমা প্রার্থনা (নূহের দোয়া)",
+      "নিজ, পিতামাতা ও উম্মাহর জন্য ক্ষমা প্রার্থনা (নূহ (আ.)-এর দোয়া)",
     source: "Quran: Surah Nuh, 71:28",
     arabic:
       "رَبِّ اغْفِرْ لِي وَلِوَالِدَيَّ وَلِمَنْ دَخَلَ بَيْتِيَ مُؤْمِنًا وَلِلْمُؤْمِنِينَ وَالْمُؤْمِنَاتِ وَلَا تَزِدِ الظَّالِمِينَ إِلَّا تَبَارًا",
@@ -109,7 +109,7 @@ export const duas: Dua[] = [
     subcategory: "repentance",
     subcategory_label_en: "Repentance & Forgiveness",
     subcategory_label_bn: "তাওবা ও ক্ষমা",
-    purpose_en: "The Supplication of Yunus (Ayat al-Kareema)",
+    purpose_en: "The Supplication of Yunus (AS) — Ayat al-Kareema",
     purpose_bn: "ইউনুস (আ.)-এর দোয়া (আয়াত আল-কারীমা)",
     source: "Quran: Surah Al-Anbiya, 21:87",
     arabic: "لَّآ إِلَٰهَ إِلَّآ أَنتَ سُبْحَٰنَكَ إِنِّى كُنتُ مِنَ ٱلظَّٰلِمِينَ",
@@ -117,7 +117,7 @@ export const duas: Dua[] = [
     meaning_bn: "তুমি ব্যতীত কোন উপাস্য নেই; তুমি পবিত্র, মহান। নিশ্চয়ই আমি সীমালংঘনকারীদের অন্তর্ভুক্ত।",
     meaning_en: "There is no deity except You; exalted are You. Indeed, I have been of the wrongdoers.",
     tags: ["yunus", "distress", "depression", "darkness", "forgiveness"],
-    context_en: "The historical invocation of the Prophet Jonah (Yunus) represents the ultimate archetype of a plea delivered from the depths of profound isolation, despair, and systemic darkness. Found in Surah Al-Anbiya of the Qur'an, it is recited both historically and contemporarily during moments of severe distress and perceived entrapment. The semantic brilliance of this specific prayer is its total lack of a direct petition or demand. It consists entirely of a tripartite structure: a definitive declaration of monotheism, a profound glorification that negates any flaw from the Divine entity, and an unconditional admission of absolute human fault.",
+    context_en: "The historical invocation of Yunus (AS), the Prophet Jonah, represents the ultimate archetype of a plea delivered from the depths of profound isolation, despair, and systemic darkness. Found in Surah Al-Anbiya of the Qur'an, it is recited both historically and contemporarily during moments of severe distress and perceived entrapment. The semantic brilliance of this specific prayer is its total lack of a direct petition or demand. It consists entirely of a tripartite structure: a definitive declaration of monotheism, a profound glorification that negates any flaw from the Divine entity, and an unconditional admission of absolute human fault.",
     context_bn: "নবী ইউনুস (আ.)-এর এই ঐতিহাসিক আহ্বানটি গভীর একাকীত্ব, হতাশা এবং অন্ধকারের অতল গহ্বর থেকে উদিত হাহাকারের এক অনন্য নিদর্শন। কুরআনের সূরা আল-আম্বিয়ায় বর্ণিত এই দোয়াটি চরম বিপদ ও অসহায়ত্বের মুহূর্তে পঠিত হয়। এই দোয়ার ভাষাগত অলৌকিকতা হলো এতে কোনো প্রত্যক্ষ প্রার্থনা বা দাবি নেই। এটি তিনটি অংশে বিন্যস্ত: তাওহিদের সুস্পষ্ট ঘোষণা, আল্লাহর পবিত্রতা ও মহিমা বর্ণনা (যা আল্লাহর সত্তা থেকে সকল ত্রুটি নাকচ করে), এবং নিজের ভুলের নিঃশর্ত স্বীকারোক্তি।"
   },
 
@@ -130,8 +130,8 @@ export const duas: Dua[] = [
     subcategory_label_en: "Family & Progeny",
     subcategory_label_bn: "পরিবার ও বংশধর",
     purpose_en:
-      "Supplication for pure and righteous offspring (Zakariya's Dua)",
-    purpose_bn: "পবিত্র ও পুণ্যবান সন্তানের প্রার্থনা (জাকারিয়ার দোয়া)",
+      "Supplication for pure and righteous offspring (Zakariya (AS)'s Dua)",
+    purpose_bn: "পবিত্র ও পুণ্যবান সন্তানের প্রার্থনা (জাকারিয়া (আ.)-এর দোয়া)",
     source: "Quran: Surah Al-Imran, 3:38",
     arabic:
       "رَبِّ هَبْ لِي مِنْ لَدُنْكَ ذُرِّيَّةً طَيِّبَةً إِنَّكَ سَمِيعُ الدُّعَاءِ",
@@ -151,9 +151,9 @@ export const duas: Dua[] = [
     subcategory_label_en: "Family & Progeny",
     subcategory_label_bn: "পরিবার ও বংশধর",
     purpose_en:
-      "Steadfastness in prayer for self and progeny (Ibrahim's Dua)",
+      "Steadfastness in prayer for self and progeny (Ibrahim (AS)'s Dua)",
     purpose_bn:
-      "নামাজ প্রতিষ্ঠাকারী বংশধরের প্রার্থনা (ইব্রাহিমের দোয়া)",
+      "নামাজ প্রতিষ্ঠাকারী বংশধরের প্রার্থনা (ইব্রাহিম (আ.)-এর দোয়া)",
     source: "Quran: Surah Ibrahim, 14:40-41",
     arabic:
       "رَبِّ اجْعَلْنِي مُقِيمَ الصَّلَاةِ وَمِنْ ذُرِّيَّتِي رَبَّنَا وَتَقَبَّلْ دُعَاءِ. رَبَّنَا اغْفِرْ لِي وَلِوَالِدَيَّ وَلِلْمُؤْمِنِينَ يَوْمَ يَقُومُ الْحِسَابُ",
@@ -339,8 +339,8 @@ export const duas: Dua[] = [
     subcategory_label_en: "Wisdom & Guidance",
     subcategory_label_bn: "প্রজ্ঞা ও হেদায়েত",
     purpose_en:
-      "Expansion of the chest and fluency of speech (Musa's Dua)",
-    purpose_bn: "বক্ষ প্রশস্তকরণ ও বাগ্মিতা বৃদ্ধি (মুসার দোয়া)",
+      "Expansion of the chest and fluency of speech (Musa (AS)'s Dua)",
+    purpose_bn: "বক্ষ প্রশস্তকরণ ও বাগ্মিতা বৃদ্ধি (মুসা (আ.)-এর দোয়া)",
     source: "Quran: Surah Ta-Ha, 20:25-28",
     arabic:
       "رَبِّ اشْرَحْ لِي صَدْرِي. وَيَسِّرْ لِي أَمْرِي. وَاحْلُلْ عُقْدَةً مِنْ لِسَانِي. يَفْقَهُوا قَوْلِي",
@@ -367,8 +367,8 @@ export const duas: Dua[] = [
     subcategory: "wisdom",
     subcategory_label_en: "Wisdom & Guidance",
     subcategory_label_bn: "প্রজ্ঞা ও হেদায়েত",
-    purpose_en: "Request for wisdom and honorable mention (Ibrahim's Dua)",
-    purpose_bn: "প্রজ্ঞা এবং সত্যের সুখ্যাতি লাভ (ইব্রাহিমের দোয়া)",
+    purpose_en: "Request for wisdom and honorable mention (Ibrahim (AS)'s Dua)",
+    purpose_bn: "প্রজ্ঞা এবং সত্যের সুখ্যাতি লাভ (ইব্রাহিম (আ.)-এর দোয়া)",
     source: "Quran: Surah Ash-Shu'ara, 26:83-85",
     arabic:
       "رَبِّ هَبْ لِي حُكْمًا وَأَلْحِقْنِي بِالصَّالِحِينَ. وَاجْعَلْ لِي لِسَانَ صِدْقٍ فِي الْآَخِرِينَ. وَاجْعَلْنِي مِنْ وَرَثَةِ جَنَّةِ النَّعِيمِ",
@@ -422,7 +422,7 @@ export const duas: Dua[] = [
     meaning_bn: "হে আমার পালনকর্তা! আপনি আমার প্রতি যে অনুগ্রহই নাযিল করবেন, আমি তো তারই মুখাপেক্ষী।",
     meaning_en: "My Lord, indeed I am, for whatever good You would send down to me, in need.",
     tags: ["musa", "need", "poverty", "humility", "provision"],
-    context_en: "When Prophet Moses (Musa) fled Egypt, arriving in Midian destitute and exhausted, his supplication was a masterclass in theological politeness. He did not explicitly demand food, shelter, or safety. Instead, he simply stated a profound ontological fact: he was faqir (absolutely bankrupt) of whatever khayr (goodness) the Divine chose to dispense.",
+    context_en: "When Prophet Moses, Musa (AS), fled Egypt, arriving in Midian destitute and exhausted, his supplication was a masterclass in theological politeness. He did not explicitly demand food, shelter, or safety. Instead, he simply stated a profound ontological fact: he was faqir (absolutely bankrupt) of whatever khayr (goodness) the Divine chose to dispense.",
     context_bn: "মিশর থেকে পালিয়ে মাদিয়ানে পৌঁছানোর পর মুসা (আ.) ছিলেন নিঃস্ব ও ক্লান্ত। তখন তিনি আল্লাহর কাছে সরাসরি খাদ্য বা আশ্রয় না চেয়ে নিজের অসহায়ত্ব তুলে ধরেন। তিনি নিজেকে 'ফকির' বা চরম অভাবী হিসেবে উপস্থাপন করেন এবং আল্লাহর নির্ধারিত যেকোনো কল্যাণের প্রতি মুখাপেক্ষী থাকার ঘোষণা দেন।"
   },
 
@@ -543,7 +543,7 @@ export const duas: Dua[] = [
     purpose_en: "Protection from anxiety, depression, and overwhelming debt",
     purpose_bn:
       "দুশ্চিন্তা, বিষণ্ণতা এবং ঋণের বোঝা থেকে মুক্তির দোয়া",
-    source: "Hadith: Bukhari 2893 (Narrated by Anas ibn Malik)",
+    source: "Hadith: Bukhari 2893 (Narrated by Anas ibn Malik (RA))",
     arabic:
       "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْهَمِّ وَالْحَزَنِ، وَالْعَجْزِ وَالْكَسَلِ، وَالْبُخْلِ وَالْجُبْنِ، وَضَلَعِ الدَّيْنِ وَغَلَبَةِ الرِّجَالِ",
     transliteration:
@@ -572,7 +572,7 @@ export const duas: Dua[] = [
     subcategory_label_bn: "দৈনন্দিন জীবন",
     purpose_en: "Supplication for the deceased in Janazah prayer",
     purpose_bn: "জানাজার নামাজে মৃত ব্যক্তির জন্য পঠিত দোয়া",
-    source: "Hadith: Muslim (narrated by Awf ibn Malik)",
+    source: "Hadith: Muslim (narrated by Awf ibn Malik (RA))",
     arabic:
       "اللَّهُمَّ اغْفِرْ لَهُ وَارْحَمْهُ وَعَافِهِ وَاعْفُ عَنْهُ وَأَكْرِمْ نُزُلَهُ وَوَسِّعْ مُدْخَلَهُ وَاغْسِلْهُ بِالْمَاءِ وَالثَّلْجِ وَالْبَرَدِ",
     transliteration:
@@ -726,7 +726,7 @@ export const duas: Dua[] = [
     meaning_bn: "আল্লাহ পবিত্র এবং তাঁরই সমস্ত প্রশংসা; আমি আল্লাহর কাছে ক্ষমা প্রার্থনা করছি এবং তাঁর দিকেই ফিরে যাচ্ছি।",
     meaning_en: "Allah is free from imperfection, and I begin with praising Him. I beg forgiveness from Allah and I turn to Him in repentance.",
     tags: ["istighfar", "daily", "repentance", "tasbih", "maintenance"],
-    context_en: "The continuous, rhythmic repetition of this specific phrase—often cited as being recited frequently by the Prophet—acts as a spiritual abrasive, scrubbing the human consciousness of the psychological residue of daily micro-transgressions.",
+    context_en: "The continuous, rhythmic repetition of this specific phrase—often cited as being recited frequently by the Prophet ﷺ—acts as a spiritual abrasive, scrubbing the human consciousness of the psychological residue of daily micro-transgressions.",
     context_bn: "নবীজি (সা.) নিয়মিত এই দোয়াটি পাঠ করতেন। এটি দিনের ছোটখাটো ভুলের গ্লানি মুছে ফেলে এবং অন্তরের পবিত্রতা ফিরিয়ে আনে।"
   },
 
@@ -927,7 +927,7 @@ export const duas: Dua[] = [
     meaning_bn: "হে অন্তরসমূহের পরিবর্তনকারী! আমার অন্তরকে আপনার দ্বীনের উপর অবিচল রাখুন।",
     meaning_en: "O Changer of the hearts, make my heart firm upon Your religion.",
     tags: ["heart", "steadfastness", "iman", "guidance", "prophet"],
-    context_en: "This was one of the most frequently repeated supplications by the Prophet. It acknowledges that spiritual stability is not a permanent achievement but a continuous divine grant.",
+    context_en: "This was one of the most frequently repeated supplications by the Prophet ﷺ. It acknowledges that spiritual stability is not a permanent achievement but a continuous divine grant.",
     context_bn: "নবীজি (সা.) এই দোয়াটি খুব বেশি পড়তেন। মানুষের অন্তর সর্বদা পরিবর্তনশীল; তাই আল্লাহর কাছে দ্বীনের ওপর অটল থাকার তাওফিক চাওয়া অত্যন্ত জরুরি।"
   },
 
@@ -940,7 +940,7 @@ export const duas: Dua[] = [
     subcategory_label_en: "Companions (Sahabah)",
     subcategory_label_bn: "সাহাবীগণের দোয়া",
     purpose_en:
-      "Abu Bakr al-Siddiq's supplication for sincere faith and purity of heart",
+      "Abu Bakr al-Siddiq (RA)'s supplication for sincere faith and purity of heart",
     purpose_bn:
       "আবু বকর সিদ্দিক (রা.)-এর খালেস ঈমান ও পবিত্র অন্তরের দোয়া",
     source:
@@ -963,7 +963,7 @@ export const duas: Dua[] = [
     subcategory_label_en: "Companions (Sahabah)",
     subcategory_label_bn: "সাহাবীগণের দোয়া",
     purpose_en:
-      "Umar ibn al-Khattab's supplication for guidance and protection from internal enemies",
+      "Umar ibn al-Khattab (RA)'s supplication for guidance and protection from internal enemies",
     purpose_bn:
       "উমর ইবনুল খাত্তাব (রা.)-এর হেদায়েত ও অভ্যন্তরীণ শত্রু থেকে সুরক্ষার দোয়া",
     source:
@@ -988,7 +988,7 @@ export const duas: Dua[] = [
     subcategory_label_en: "Successors (Tabi'un)",
     subcategory_label_bn: "তাবেয়ীগণের দোয়া",
     purpose_en:
-      "Al-Hasan al-Basri's supplication for gratitude and contentment with divine decree",
+      "Al-Hasan al-Basri (RH)'s supplication for gratitude and contentment with divine decree",
     purpose_bn:
       "হাসান আল-বাসরি (রহ.)-এর কৃতজ্ঞতা ও তাকদিরের প্রতি সন্তুষ্টির দোয়া",
     source: "Transmitted through Al-Hasan al-Basri (may Allah have mercy on him)",
@@ -1017,7 +1017,7 @@ export const duas: Dua[] = [
     subcategory_label_en: "Successors (Tabi'un)",
     subcategory_label_bn: "তাবেয়ীগণের দোয়া",
     purpose_en:
-      "Sufyan al-Thawri's supplication for protection from bid'ah and misguidance",
+      "Sufyan al-Thawri (RH)'s supplication for protection from bid'ah and misguidance",
     purpose_bn:
       "সুফিয়ান আস-সাওরি (রহ.)-এর বিদআত ও পথভ্রষ্টতা থেকে সুরক্ষার দোয়া",
     source:
@@ -1179,7 +1179,7 @@ export const duas: Dua[] = [
     subcategory_label_bn: "রমজানের দোয়া",
     purpose_en: "Dua for Laylat al-Qadr (Third Ashra – Night of Power)",
     purpose_bn: "লাইলাতুল কদরের দোয়া (তৃতীয় আশরা – মুক্তি)",
-    source: "Hadith: Tirmidhi 3513 (narrated by Aisha)",
+    source: "Hadith: Tirmidhi 3513 (narrated by Aisha (RA))",
     arabic: "اللَّهُمَّ إِنَّكَ عَفُوٌّ تُحِبُّ الْعَفْوَ فَاعْفُ عَنِّي",
     transliteration: "Allahumma innaka afuwwun tuhibbul afwa fa'fu anni.",
     meaning_bn:
@@ -1335,7 +1335,7 @@ export const duas: Dua[] = [
     subcategory_label_bn: "ইস্তিখারা (সঠিক সিদ্ধান্তের দোয়া)",
     purpose_en: "Dua al-Istikhara – seeking Allah's guidance on a decision",
     purpose_bn: "দোয়া ইস্তিখারা – আল্লাহর কাছে সঠিক সিদ্ধান্তের পথ চাওয়া",
-    source: "Hadith: Bukhari 1166 (narrated by Jabir ibn Abdullah)",
+    source: "Hadith: Bukhari 1166 (narrated by Jabir ibn Abdullah (RA))",
     arabic:
       "اللَّهُمَّ إِنِّي أَسْتَخِيرُكَ بِعِلْمِكَ وَأَسْتَقْدِرُكَ بِقُدْرَتِكَ وَأَسْأَلُكَ مِنْ فَضْلِكَ الْعَظِيمِ فَإِنَّكَ تَقْدِرُ وَلاَ أَقْدِرُ وَتَعْلَمُ وَلاَ أَعْلَمُ وَأَنْتَ عَلَّامُ الْغُيُوبِ اللَّهُمَّ إِنْ كُنْتَ تَعْلَمُ أَنَّ هَذَا الأَمْرَ خَيْرٌ لِي فِي دِينِي وَمَعَاشِي وَعَاقِبَةِ أَمْرِي فَاقْدُرْهُ لِي وَيَسِّرْهُ لِي ثُمَّ بَارِكْ لِي فِيهِ وَإِنْ كُنْتَ تَعْلَمُ أَنَّ هَذَا الأَمْرَ شَرٌّ لِي فِي دِينِي وَمَعَاشِي وَعَاقِبَةِ أَمْرِي فَاصْرِفْهُ عَنِّي وَاصْرِفْنِي عَنْهُ وَاقْدُرْ لِيَ الْخَيْرَ حَيْثُ كَانَ ثُمَّ أَرْضِنِي بِهِ",
     transliteration:
@@ -1368,7 +1368,7 @@ export const duas: Dua[] = [
     purpose_en: "Manzil Dua – comprehensive protection from evil and magic",
     purpose_bn: "মনজিল দোয়া – জাদু ও অনিষ্ট থেকে সর্বাত্মক সুরক্ষা",
     source:
-      "Compiled by Shaykh Muhammad Zakariyya al-Kandhlawi from Quran & Sunnah",
+      "Compiled by Shaykh Muhammad Zakariyya al-Kandhlawi (RH) from Quran & Sunnah",
     arabic:
       "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ\nقُلْ هُوَ اللَّهُ أَحَدٌ، اللَّهُ الصَّمَدُ، لَمْ يَلِدْ وَلَمْ يُولَدْ، وَلَمْ يَكُنْ لَهُ كُفُوًا أَحَدٌ",
     transliteration:
@@ -1787,7 +1787,7 @@ export const duas: Dua[] = [
     "হে আমার প্রতিপালক! আমাকে সত্য ও মর্যাদার সাথে প্রবেশ করান এবং সত্য ও মর্যাদার সাথে বের করুন, এবং আপনার পক্ষ থেকে আমাকে শক্তিশালী সহায়তা দান করুন।",
   tags: ["guidance", "integrity", "success", "divine-support"],
   context_en:
-    "Scholars explain that this supplication was revealed during the period of the Prophet’s migration from Makkah. It expresses a profound request that every beginning and ending in life be based on truth, sincerity, and divine support.",
+    "Scholars explain that this supplication was revealed during the period of the Prophet ﷺ’s migration from Makkah. It expresses a profound request that every beginning and ending in life be based on truth, sincerity, and divine support.",
   context_bn:
     "মুফাসসিরগণ ব্যাখ্যা করেন যে এই দোয়াটি নবী ﷺ-এর মক্কা থেকে মদিনায় হিজরতের সময় নাযিল হয়। এতে জীবনের প্রতিটি শুরু ও সমাপ্তি যেন সত্য, সততা ও আল্লাহর সাহায্যের সাথে হয়—এই গভীর প্রার্থনা প্রকাশ পেয়েছে।"
 },
