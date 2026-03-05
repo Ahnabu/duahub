@@ -82,7 +82,7 @@ export function DuaCard({ dua, expanded = false }: DuaCardProps) {
         <p
           className={cn(
             "arabic text-right leading-loose text-foreground",
-            expanded ? "text-2xl sm:text-3xl" : "text-xl sm:text-2xl"
+            expanded ? "text-3xl sm:text-3xl" : "text-2xl sm:text-2xl"
           )}
           dir="rtl"
           lang="ar"

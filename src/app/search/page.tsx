@@ -69,7 +69,9 @@ function SearchResults() {
           {isBn ? "দোয়া খুঁজুন" : "Search Duas"}
         </h1>
         <p className={cn("text-sm text-muted-foreground text-center", isBn ? "bangla" : "")}>
-          {isBn ? "বাংলা, ইংরেজি, আরবি বা বিভাগের নাম দিয়ে খুঁজুন" : "Search by Bengali, English, Arabic or category name"}
+          {isBn
+            ? "বাংলা, ইংরেজি, আরবি বা বিভাগের নাম দিয়ে খুঁজুন — অথবা রেগেক্স: /pattern/"
+            : "Search by Bengali, English, Arabic or category — or use regex: /pattern/"}
         </p>
         <SearchBar
           defaultValue={initialQuery}

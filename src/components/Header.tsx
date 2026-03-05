@@ -45,17 +45,17 @@ export function Header() {
         </Link>
 
         {/* Desktop nav */}
-        <nav className="hidden md:flex items-center gap-1 text-sm flex-1 justify-center">
+        <nav className="hidden md:flex items-center gap-4 text-sm flex-1 justify-center">
           {NAV_ITEMS.map((item) => (
             <Link
               key={item.href}
               href={item.href}
               className={cn(
-                "px-3 py-1.5 rounded-md transition-colors whitespace-nowrap",
+                "transition-colors whitespace-nowrap",
                 isBn ? "bangla text-sm" : "",
                 pathname === item.href
-                  ? "bg-primary text-primary-foreground"
-                  : "hover:bg-muted text-muted-foreground hover:text-foreground"
+                  ? "text-primary font-semibold"
+                  : "text-muted-foreground hover:text-foreground"
               )}
             >
               {isBn ? item.label_bn : item.label_en}
@@ -114,11 +114,11 @@ export function Header() {
               href={item.href}
               onClick={() => setMobileOpen(false)}
               className={cn(
-                "px-3 py-2.5 rounded-lg transition-colors text-sm font-medium",
+                "px-3 py-2.5 transition-colors text-sm",
                 isBn ? "bangla" : "",
                 pathname === item.href
-                  ? "bg-primary text-primary-foreground"
-                  : "hover:bg-muted text-muted-foreground hover:text-foreground"
+                  ? "text-primary font-semibold"
+                  : "text-muted-foreground hover:text-foreground"
               )}
             >
               {isBn ? item.label_bn : item.label_en}

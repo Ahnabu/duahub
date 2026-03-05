@@ -77,7 +77,7 @@ export function DuaPageClient({ slug }: { slug: string }) {
         {/* Arabic */}
         <div className="px-6 py-6 bg-muted/30">
           <p
-            className="arabic text-right text-3xl sm:text-4xl leading-loose text-foreground"
+            className="arabic text-right text-4xl sm:text-4xl leading-loose text-foreground"
             dir="rtl"
             lang="ar"
           >

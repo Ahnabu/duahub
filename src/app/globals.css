@@ -37,6 +37,7 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-feature-settings: "rlig" 1, "calt" 1;
+    scrollbar-gutter: stable;
   }
 
   /* Arabic script */
@@ -72,5 +73,21 @@
   .focus-ring:focus-visible {
     outline: 2px solid rgb(var(--ring));
     outline-offset: 2px;
+  }
+
+  /* Thin scrollbar for subcategory nav */
+  .scrollbar-thin {
+    scrollbar-width: thin;
+    scrollbar-color: rgb(var(--border)) transparent;
+  }
+  .scrollbar-thin::-webkit-scrollbar {
+    width: 4px;
+  }
+  .scrollbar-thin::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  .scrollbar-thin::-webkit-scrollbar-thumb {
+    background-color: rgb(var(--border));
+    border-radius: 9999px;
   }
 }

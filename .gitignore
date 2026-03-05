@@ -36,3 +36,23 @@ nul
 
 # Documentation / reference markdown files
 *.md
+
+# Data analysis / migration scripts (temporary)
+scripts/
+*.backup.ts
+*_old.ts
+*_final_clean.ts
+
+# CSV exports and stats files
+*.csv
+
+# Extraction / research scripts
+extract_*.py
+extract_*.js
+extract_output.txt
+*_to_add.json
+
+# Editor
+.vscode/
+*.swp
+*.swo

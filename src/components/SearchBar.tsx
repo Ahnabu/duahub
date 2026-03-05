@@ -30,8 +30,8 @@ export function SearchBar({
   const placeholder =
     placeholderProp ??
     (isBn
-      ? "দোয়া খুঁজুন… (বাংলা, ইংরেজি বা আরবিতে)"
-      : "Search duas… (English, Bangla, or Arabic)");
+      ? "দোয়া খুঁজুন… (বাংলা, ইংরেজি, আরবি )"
+      : "Search duas… (English, Bangla, Arabic )");
 
   function handleSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();

@@ -3,9 +3,16 @@ import { ThemeProvider } from "next-themes";
 import { Analytics } from "@vercel/analytics/react";
 import { LanguageProvider } from "@/context/LanguageContext";
 import { Header } from "@/components/Header";
+import { Footer } from "@/components/Footer";
 import "./globals.css";
 
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://duahub.vercel.app";
+
 export const metadata: Metadata = {
+  metadataBase: new URL(SITE_URL),
+  applicationName: "DuaHub",
+  authors: [{ name: "DuaHub", url: SITE_URL }],
+  generator: "Next.js",
   verification: {
     google: "wxL3sutjoZHupHM-v-eiQARKOVP9KKnif6s1rizNfxI",
   },
@@ -21,6 +28,8 @@ export const metadata: Metadata = {
     "taraweeh ki dua", "morning dua", "evening dua", "dua masura", "first ashra dua",
     "second ashra dua", "third ashra dua", "dua before eating", "dua after eating",
     "bangla dua", "দোয়া", "ইসলামিক দোয়া", "islamic supplication", "Arabic dua with meaning",
+    "supplication", "rabbana", "prophet dua", "quran dua", "hisnul muslim",
+    "dua for forgiveness", "dua for protection", "dua for rizq", "daily adhkar",
   ],
   icons: {
     icon: [
@@ -31,13 +40,36 @@ export const metadata: Metadata = {
     ],
     shortcut: "/icon.svg",
   },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
   openGraph: {
     title: "DuaHub – Islamic Duas & Supplications in Arabic, English, Bangla",
     description:
       "Complete duas from Quran, Sunnah and Salaf with Arabic text, transliteration, and English/Bangla meanings. Includes Ramadan duas, dua qunoot, iftar dua, istikhara dua and more.",
     type: "website",
+    url: SITE_URL,
+    siteName: "DuaHub",
     locale: "en_US",
     alternateLocale: "bn_BD",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "DuaHub – Islamic Duas & Supplications in Arabic, English, Bangla",
+    description:
+      "Complete duas from Quran, Sunnah and Salaf with Arabic, transliteration, English & Bangla meanings.",
+    site: "@duahub",
+  },
+  alternates: {
+    canonical: SITE_URL,
   },
 };
 
@@ -69,12 +101,7 @@ export default function RootLayout({
             <div className="min-h-screen flex flex-col">
               <Header />
               <main className="flex-1">{children}</main>
-              <footer className="border-t border-border py-6 text-center text-sm text-muted-foreground">
-                <p>
-                  May Allah accept your supplications. All content sourced from
-                  authenticated texts.
-                </p>
-              </footer>
+              <Footer />
             </div>
             <Analytics />
           </LanguageProvider>
