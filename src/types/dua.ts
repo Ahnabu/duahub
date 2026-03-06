@@ -56,7 +56,8 @@ export type DuaSubcategory =
   | "forgiveness"
   | "reflection"
   | "success"
-  | "discipline";
+  | "discipline"
+  | "ismi-azam";
 
 export interface Dua {
   id: string;

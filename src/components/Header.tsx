@@ -14,6 +14,7 @@ const NAV_ITEMS = [
   { href: "/category/sunnah", label_en: "Sunnah", label_bn: "সুন্নাহ" },
   { href: "/category/salaf", label_en: "Salaf", label_bn: "সালাফ" },
   { href: "/ramadan", label_en: "Ramadan", label_bn: "রমজান" },
+  { href: "/ismi-azam", label_en: "Isme Azam", label_bn: "ইসমে আজম" },
 ];
 
 export function Header() {

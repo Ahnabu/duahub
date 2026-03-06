@@ -116,7 +116,7 @@ export const duas: Dua[] = [
     transliteration: "La ilaha illa anta subhanaka inni kuntu minaz-zalimin.",
     meaning_bn: "তুমি ব্যতীত কোন উপাস্য নেই; তুমি পবিত্র, মহান। নিশ্চয়ই আমি সীমালংঘনকারীদের অন্তর্ভুক্ত।",
     meaning_en: "There is no deity except You; exalted are You. Indeed, I have been of the wrongdoers.",
-    tags: ["yunus", "distress", "depression", "darkness", "forgiveness"],
+    tags: ["yunus", "distress", "depression", "darkness", "forgiveness", "ismi-azam"],
     context_en: "The historical invocation of Yunus (AS), the Prophet Jonah, represents the ultimate archetype of a plea delivered from the depths of profound isolation, despair, and systemic darkness. Found in Surah Al-Anbiya of the Qur'an, it is recited both historically and contemporarily during moments of severe distress and perceived entrapment. The semantic brilliance of this specific prayer is its total lack of a direct petition or demand. It consists entirely of a tripartite structure: a definitive declaration of monotheism, a profound glorification that negates any flaw from the Divine entity, and an unconditional admission of absolute human fault.",
     context_bn: "নবী ইউনুস (আ.)-এর এই ঐতিহাসিক আহ্বানটি গভীর একাকীত্ব, হতাশা এবং অন্ধকারের অতল গহ্বর থেকে উদিত হাহাকারের এক অনন্য নিদর্শন। কুরআনের সূরা আল-আম্বিয়ায় বর্ণিত এই দোয়াটি চরম বিপদ ও অসহায়ত্বের মুহূর্তে পঠিত হয়। এই দোয়ার ভাষাগত অলৌকিকতা হলো এতে কোনো প্রত্যক্ষ প্রার্থনা বা দাবি নেই। এটি তিনটি অংশে বিন্যস্ত: তাওহিদের সুস্পষ্ট ঘোষণা, আল্লাহর পবিত্রতা ও মহিমা বর্ণনা (যা আল্লাহর সত্তা থেকে সকল ত্রুটি নাকচ করে), এবং নিজের ভুলের নিঃশর্ত স্বীকারোক্তি।"
   },
@@ -1844,6 +1844,132 @@ export const duas: Dua[] = [
   tags: ["protection", "sins"],
   context_en: "A supplication asking protection from the consequences of one's own actions.",
   context_bn: "নিজের কর্মের ক্ষতিকর পরিণতি থেকে রক্ষা চাওয়ার দোয়া।"
+},{
+  id: "ia-001",
+  slug: "anas-mannan-badi",
+  category: "sunnah",
+  subcategory: "ismi-azam",
+  subcategory_label_en: "Isme Azam",
+  subcategory_label_bn: "ইসমে আজম",
+  purpose_en: "Anas ibn Malik (RA) — Supplication via Creation & Bestowal",
+  purpose_bn: "আনাস ইবনে মালিক (রা.) — সৃষ্টি ও দানশীলতার মাধ্যমে প্রার্থনা",
+  source: "Sunan Abi Dawud 1495, Sunan Ibn Majah 3858, Jami' at-Tirmidhi 3544",
+  arabic:
+    "اللَّهُمَّ إِنِّي أَسْأَلُكَ بِأَنَّ لَكَ الْحَمْدَ لاَ إِلَهَ إِلاَّ أَنْتَ الْمَنَّانُ بَدِيعُ السَّمَوَاتِ وَالأَرْضِ يَا ذَا الْجَلاَلِ وَالإِكْرَامِ يَا حَىُّ يَا قَيُّومُ",
+  transliteration:
+    "Allahumma inni as'aluka bi-anna lakal-hamd, la ilaha illa ant, al-mannanu badi'us-samawati wal-ard, ya dhal-jalali wal-ikram, ya hayyu ya qayyum.",
+  meaning_bn:
+    "হে আল্লাহ! আমি তোমার কাছে প্রার্থনা করছি, কারণ সকল প্রশংসা তোমারই। তুমি ছাড়া কোনো উপাস্য নেই, তুমি পরম দয়ালু দাতা, আসমান ও জমিনের অপূর্ব সৃষ্টিকর্তা, হে মহিমাময় ও মহানুভব, হে চিরঞ্জীব, হে চিরস্থায়ী।",
+  meaning_en:
+    "O Allah, I ask You by virtue of all praise being Yours; there is no deity except You, the Bestower, the Originator of the heavens and the earth, O Lord of Majesty and Splendour, O Ever-Living, O Sustainer of existence.",
+  tags: ["anas-mannan-badi", "ismi-azam", "al-mannan", "badi", "hayy", "qayyum", "creation", "majesty", "answered prayer"],
+  context_en:
+    "Narrated by Anas ibn Malik (RA), the Prophet \u{FDFA} was in the mosque when a man finished his prayer with these words. The Prophet \u{FDFA} explicitly identified this as containing the Isme Azam — the Greatest Name by which, when asked, Allah gives, and when called upon, He responds. The dua's genius lies in invoking al-Mannan (the Bestower who gives without condition) alongside Badi'us-Samawat (the One who created the cosmos from nothing). The same power that willed the universe into existence can just as easily will a solution into the supplicant's situation.",
+  context_bn:
+    "আনাস ইবনে মালিক (রা.) থেকে বর্ণিত — নবী ﷺ মসজিদে বসেছিলেন যখন এক ব্যক্তি নামাজ শেষে এই শব্দগুলোয় দোয়া করছিল। নবী ﷺ স্পষ্টভাবে এটিকে ইসমে আজম হিসেবে চিহ্নিত করলেন — যার দ্বারা চাইলে আল্লাহ দান করেন এবং ডাকলে সাড়া দেন। এই দোয়ার বিশেষত্ব হলো 'আল-মান্নান' ও 'বাদিউস-সামাওয়াত'-কে একসাথে আহ্বান করা — যিনি মহাবিশ্বকে অস্তিত্বে এনেছেন, তিনি বান্দার সমস্যার সমাধানও অদৃশ্য থেকে এনে দিতে পারেন।",
+},{
+  id: "ia-002",
+  slug: "buraidah-ahad-samad",
+  category: "sunnah",
+  subcategory: "ismi-azam",
+  subcategory_label_en: "Isme Azam",
+  subcategory_label_bn: "ইসমে আজম",
+  purpose_en: "Buraidah al-Aslami (RA) — Supplication via Absolute Unity",
+  purpose_bn: "বুরাইদাহ আল-আসলামি (রা.) — নিরঙ্কুশ একত্ব ও স্বয়ংসম্পূর্ণতার মাধ্যমে প্রার্থনা",
+  source: "Jami' at-Tirmidhi 3475, Sunan Abi Dawud 1493",
+  arabic:
+    "اللَّهُمَّ إِنِّي أَسْأَلُكَ بِأَنِّي أَشْهَدُ أَنَّكَ أَنْتَ اللَّهُ لاَ إِلَهَ إِلاَّ أَنْتَ الأَحَدُ الصَّمَدُ الَّذِي لَمْ يَلِدْ وَلَمْ يُولَدْ وَلَمْ يَكُنْ لَهُ كُفُوًا أَحَدٌ",
+  transliteration:
+    "Allahumma inni as'aluka bi anni ashhadu annaka antallah, la ilaha illa ant, al-ahadus-samad, alladhi lam yalid wa lam yulad, wa lam yakun lahu kufuwan ahad.",
+  meaning_bn:
+    "হে আল্লাহ! আমি তোমার কাছে প্রার্থনা করছি এই সাক্ষ্য দিয়ে যে, তুমিই আল্লাহ, তুমি ব্যতীত কোনো উপাস্য নেই। তুমি এক, অমুখাপেক্ষী, যিনি কাউকে জন্ম দেননি, তাঁকেও কেউ জন্ম দেয়নি, এবং তাঁর সমতুল্য কেউ নেই।",
+  meaning_en:
+    "O Allah, I ask You by my testifying that You are Allah; there is no deity except You, the One, the Self-Sufficient, who did not beget, nor was begotten, and to Whom there is no equivalent.",
+  tags: ["buraidah-ahad-samad", "ismi-azam", "as-samad", "al-ahad", "surah ikhlas", "unity", "independence"],
+  context_en:
+    "Transmitted by Buraidah al-Aslami (RA), the Prophet \u{FDFA} swore by the One in Whose Hand his soul is: 'He has most certainly supplicated Allah using His Greatest Name.' This dua is Surah Al-Ikhlas transformed into a living supplication. Its core is As-Samad — the absolutely self-sufficient Master whom all creation needs for their every moment, yet Who needs nothing from anyone. By invoking this attribute, the supplicant negates all worldly dependencies and taps directly into the Uncaused First Cause.",
+  context_bn:
+    "বুরাইদাহ আল-আসলামি (রা.) থেকে বর্ণিত — নবী ﷺ তাঁর প্রাণের মালিকের শপথ করে বললেন: 'সে নিশ্চিতভাবেই আল্লাহর ইসমে আজমের মাধ্যমে দোয়া করেছে।' এই দোয়াটি সূরা ইখলাসকে একটি জীবন্ত প্রার্থনায় রূপান্তরিত করেছে। এর মূলে রয়েছে 'আস-সামাদ' — পরম অমুখাপেক্ষী সত্তা যার কাছে সমগ্র সৃষ্টি মুখাপেক্ষী, অথচ তিনি কারো ওপর নির্ভরশীল নন।",
+},{
+  id: "ia-003",
+  slug: "asma-three-surahs-hayyul-qayyum",
+  category: "quran",
+  subcategory: "ismi-azam",
+  subcategory_label_en: "Isme Azam",
+  subcategory_label_bn: "ইসমে আজম",
+  purpose_en: "Al-Hayy Al-Qayyum — The Isme Azam Across Three Surahs",
+  purpose_bn: "আল-হাইয়্যু আল-ক্বাইয়ুম — তিনটি সূরায় উপস্থিত ইসমে আজম",
+  source: "Quran: 2:255, 3:2, 20:111 via Sunan Ibn Majah 3856",
+  arabic: "اللَّهُ لَا إِلَٰهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ",
+  transliteration: "Allahu la ilaha illa Huwal-Hayyul-Qayyum.",
+  meaning_bn: "আল্লাহ — তিনি ব্যতীত কোনো উপাস্য নেই। তিনি চিরঞ্জীব, সর্বসত্তার ধারক ও সংরক্ষণকারী।",
+  meaning_en: "Allah — there is no deity except Him, the Ever-Living, the Sustainer of all existence.",
+  tags: ["asma-three-surahs-hayyul-qayyum", "ismi-azam", "al-hayy", "al-qayyum", "ayatul kursi", "sustenance", "protection", "abu umamah"],
+  context_en:
+    "Based on the narration of Abu Umamah (RA), scholars including Shaykh al-Uthaymeen identify this as the Isme Azam — the common element across Al-Baqarah 2:255 (Ayatul Kursi), Aal-e-Imran 3:2, and Ta-Ha 20:111. Al-Hayy describes eternal life with no beginning or end. Al-Qayyum actively upholds every atom of existence. Invoking these paired names surrenders the management of one's entire life to the One who flawlessly manages the cosmos.",
+  context_bn:
+    "আবু উমামা (রা.)-এর বর্ণনার ভিত্তিতে, শায়খ আল-উসায়মিনসহ পণ্ডিতরা এটিকে ইসমে আজম হিসেবে চিহ্নিত করেন — আল-বাকারাহ ২:২৫৫ (আয়াতুল কুরসি), আলে-ইমরান ৩:২ এবং ত্বা-হা ২০:১১১-এর সাধারণ উপাদান। 'আল-হাইয়্যু' অনন্ত জীবনের গুণ। 'আল-ক্বাইয়ুম' সক্রিয় গুণ — তিনি মহাবিশ্বের প্রতিটি অণুকে প্রতিনিয়ত ধারণ করেন।",
+},{
+  id: "ia-004",
+  slug: "asma-bint-yazid-tawhid",
+  category: "quran",
+  subcategory: "ismi-azam",
+  subcategory_label_en: "Isme Azam",
+  subcategory_label_bn: "ইসমে আজম",
+  purpose_en: "Asma bint Yazid (RA) — Supplication via Mercy & Sustenance",
+  purpose_bn: "আসমা বিনতে ইয়াজিদ (রা.) — রহমত ও চিরস্থায়ী পালনকর্তার মাধ্যমে প্রার্থনা",
+  source: "Sunan Abi Dawud 1496, Jami' at-Tirmidhi 3478",
+  arabic:
+    "وَإِلَٰهُكُمْ إِلَٰهٌ وَاحِدٌ لَّا إِلَٰهَ إِلَّا هُوَ الرَّحْمَٰنُ الرَّحِيمُ — الم اللَّهُ لَا إِلَٰهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ",
+  transliteration:
+    "Wa ilahukum ilahun wahid, la ilaha illa Huwar-Rahmanur-Rahim — Alif Lam Meem, Allahu la ilaha illa Huwal-Hayyul-Qayyum.",
+  meaning_bn:
+    "তোমাদের উপাস্য একমাত্র উপাস্য। তিনি ব্যতীত কোনো উপাস্য নেই, তিনি পরম করুণাময়, অসীম দয়ালু — আলিফ-লাম-মীম। আল্লাহ, তিনি ব্যতীত কোনো উপাস্য নেই, তিনি চিরঞ্জীব, সর্বসত্তার ধারক।",
+  meaning_en:
+    "And your god is one God; there is no deity except Him, the Entirely Merciful, the Especially Merciful — Alif Lam Meem. Allah, there is no deity except Him, the Ever-Living, the Sustainer of existence.",
+  tags: ["asma-bint-yazid-tawhid", "ismi-azam", "ar-rahman", "ar-rahim", "al-hayy", "al-qayyum", "mercy", "monotheism"],
+  context_en:
+    "Narrated by Asma bint Yazid (RA), the Prophet \u{FDFA} identified the Isme Azam in two Quranic passages: Al-Baqarah 2:163 and the opening of Aal-e-Imran 3:1-2. This formulation uniquely merges absolute monotheism with the twin mercy of Ar-Rahman (overflowing mercy for all creation) and Ar-Rahim (special mercy for believers), then links them to the eternal life and cosmic sustenance of Al-Hayy and Al-Qayyum.",
+  context_bn:
+    "আসমা বিনতে ইয়াজিদ (রা.) থেকে বর্ণিত — নবী ﷺ ইসমে আজম দুটি কুরআনিক অংশে চিহ্নিত করেন: আল-বাকারাহ ২:১৬৩ এবং আলে-ইমরানের শুরু ৩:১-২। এই কাঠামো তাওহিদকে আর-রহমান ও আর-রহিমের সাথে মিলিয়ে আল-হাইয়্যু ও আল-ক্বাইয়ুমের সাথে যুক্ত করে — অসীম করুণা ও মহাজাগতিক কর্তৃত্বের সরাসরি আনুকূল্যে প্রার্থনার এক অটুট শৃঙ্খল।",
+},{
+  id: "ia-005",
+  slug: "dhal-jalali-wal-ikram",
+  category: "quran",
+  subcategory: "ismi-azam",
+  subcategory_label_en: "Isme Azam",
+  subcategory_label_bn: "ইসমে আজম",
+  purpose_en: "Ya Dhal-Jalali wal-Ikram — O Lord of Majesty and Honour",
+  purpose_bn: "ইয়া জাল জালালি ওয়াল ইকরাম — হে মহিমাময় ও মহানুভব",
+  source: "Surah Ar-Rahman 55:27, 55:78; Riyad-us-Saliheen 1491, Sahih Muslim",
+  arabic: "يَا ذَا الْجَلَالِ وَالْإِكْرَامِ",
+  transliteration: "Ya Dhal-Jalali wal-Ikram.",
+  meaning_bn: "হে মহিমাময় ও মহানুভব!",
+  meaning_en: "O Possessor of Majesty and Honour!",
+  tags: ["dhal-jalali-wal-ikram", "ismi-azam", "majesty", "honor", "ar-rahman", "frequent-invocation", "glory", "after prayer"],
+  context_en:
+    "This phrase appears twice in Surah Ar-Rahman (55:27 & 55:78) as the definitive conclusion to Allah's enumeration of His favours. The Prophet \u{FDFA} commanded: 'Persist in reciting Ya Dhal-Jalali wal-Ikram.' Several distinguished scholars hold this standalone phrase as the Isme Azam. It encapsulates the entirety of the spiritual experience: Al-Jalal (awe-inspiring majesty, instilling khawf/reverential fear) balanced perfectly against Al-Ikram (beauty, generosity, honour — instilling raja'/hope).",
+  context_bn:
+    "এই বাক্যটি সূরা আর-রহমানে দুবার উপস্থিত (৫৫:২৭ ও ৫৫:৭৮) — আল্লাহর নিয়ামতের বর্ণনার চূড়ান্ত পরিসমাপ্তি হিসেবে। নবী ﷺ নির্দেশ দিয়েছেন: 'ইয়া জাল জালালি ওয়াল ইকরাম পড়তে থাকো।' বেশ কয়েকজন বিশিষ্ট আলেম এই স্বতন্ত্র বাক্যটিকেই ইসমে আজম বলে মনে করেন — আল-জালাল (প্রতাপ) এবং আল-ইকরাম (উদারতা)-এর নিখুঁত ভারসাম্য।",
+},{
+  id: "ia-006",
+  slug: "allahu-samad-ikhlas",
+  category: "quran",
+  subcategory: "ismi-azam",
+  subcategory_label_en: "Isme Azam",
+  subcategory_label_bn: "ইসমে আজম",
+  purpose_en: "Allahu Samad — The Self-Sufficient Master (Surah Al-Ikhlas)",
+  purpose_bn: "আল্লাহু সামাদ — পরম অমুখাপেক্ষী সত্তা (সূরা আল-ইখলাস)",
+  source: "Surah Al-Ikhlas, 112:2",
+  arabic: "اللَّهُ الصَّمَدُ",
+  transliteration: "Allahu-Samad.",
+  meaning_bn: "আল্লাহ অমুখাপেক্ষী — সবাই তাঁর মুখাপেক্ষী।",
+  meaning_en: "Allah, the Eternal Refuge — the Self-Sufficient Master.",
+  tags: ["allahu-samad-ikhlas", "ismi-azam", "as-samad", "surah ikhlas", "self-sufficiency", "absolute sovereignty"],
+  context_en:
+    "The second verse of Surah Al-Ikhlas, identified in spiritual tradition as an independent Isme Azam. Surah Al-Ikhlas was revealed in response to polytheists demanding the Prophet \u{FDFA} describe Allah's lineage — the answer was one of the most theologically comprehensive statements ever revealed. As-Samad: the absolutely impenetrable, self-sufficient reality on which all creation depends for every moment of existence, yet who requires nothing from creation. Regular recitation builds psychological invulnerability — attaching one's fragile existence to the only immovable reality in the cosmos.",
+  context_bn:
+    "সূরা আল-ইখলাসের দ্বিতীয় আয়াত, আধ্যাত্মিক ঐতিহ্যে স্বতন্ত্র ইসমে আজম হিসেবে চিহ্নিত। এই সূরা অবতীর্ণ হয়েছিল যখন মুশরিকরা আল্লাহর বংশপরিচয় চেয়েছিল। আস-সামাদ: পরম নিরেট সত্তা যার ওপর সমগ্র সৃষ্টির প্রতিটি মুহূর্তের অস্তিত্ব নির্ভর করে, অথচ তিনি কারো ওপর নির্ভরশীল নন। এই নামের নিয়মিত পাঠ মনস্তাত্ত্বিক অভেদ্যতা গড়ে তোলে।",
 }
 ];
 
@@ -1887,6 +2013,14 @@ export const categoryMeta: CategoryMeta[] = [
 ];
 
 export const subcategoryMeta: SubcategoryMeta[] = [
+  // ── Isme Azam ────────────────────────────────────────────────────────────
+  {
+    id: "ismi-azam",
+    slug: "ismi-azam",
+    label_en: "Isme Azam",
+    label_bn: "ইসমে আজম",
+    category: "quran",
+  },
   // ── Quran subcategories ─────────────────────────────────────────────────
   {
     id: "family",
