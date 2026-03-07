@@ -1703,22 +1703,26 @@ export const duas: Dua[] = [
 
 // ─── QURAN: Adam's Repentance ─────────────────────────────────────────────────
 {
-  id: 'q-rep-adam-001',
-  slug: 'adam-repentance-quran-7-23',
-  category: 'quran',
-  subcategory: 'repentance',
-  subcategory_label_en: 'Repentance & Forgiveness',
-  subcategory_label_bn: 'তাওবা ও ক্ষমা',
-  purpose_en: "Repentance of Adam (AS) and Hawwa — first human supplication for forgiveness",
-  purpose_bn: 'আদম ও হাওয়া (আ.)-এর তওবা — ক্ষমার জন্য প্রথম মানবিক দোয়া',
-  source: "Qur'an 7:23",
-  arabic: 'رَبَّنَا ظَلَمْنَا أَنفُسَنَا وَإِن لَّمْ تَغْفِرْ لَنَا وَتَرْحَمْنَا لَنَكُونَنَّ مِنَ الْخَاسِرِينَ',
-  transliteration: 'Rabbana zalamna anfusana wa in lam taghfir lana wa tarhamna lanakunanna minal-khasirin.',
-  meaning_en: 'Our Lord, we have wronged ourselves. If You do not forgive us and have mercy upon us, we will surely be among the losers.',
-  meaning_bn: 'হে আমাদের রব! আমরা নিজেদের প্রতি জুলুম করেছি। আপনি যদি আমাদের ক্ষমা না করেন এবং দয়া না করেন, তবে আমরা অবশ্যই ক্ষতিগ্রস্তদের অন্তর্ভুক্ত হব।',
-  tags: ['quran', 'repentance', 'prophet', 'adam', 'forgiveness', 'mercy'],
-  context_en: "This is the first recorded act of human repentance in the Qur'an. After Adam and Hawwa (AS) ate from the forbidden tree and were sent to earth, they did not make excuses or blame each other. Instead they jointly acknowledged their fault: 'We have wronged ourselves.' Allah accepted their repentance (2:37). This supplication is a model of true tawbah — admitting wrong, expressing need, and seeking both forgiveness and mercy together.",
-  context_bn: "এটি কুরআনে বর্ণিত মানব ইতিহাসের প্রথম তাওবা। আদম ও হাওয়া (আ.) নিষিদ্ধ ফল খেয়ে পৃথিবীতে পাঠানো হওয়ার পর তারা একে অপরকে দোষ দেননি বা অজুহাত করেননি। বরং তারা একসাথে নিজেদের দোষ স্বীকার করলেন। আল্লাহ তাদের তওবা কবুল করলেন (২:৩৭)। এই দোয়া সত্যিকারের তওবার আদর্শ — ভুল স্বীকার, প্রয়োজন প্রকাশ এবং একসাথে ক্ষমা ও রহমত চাওয়া।",
+  id: "q-rep-007",
+  slug: "musa-repentance-after-mistake",
+  category: "quran",
+  subcategory: "repentance",
+  subcategory_label_en: "Repentance & Forgiveness",
+  subcategory_label_bn: "তওবা ও ক্ষমা",
+  purpose_en: "Repentance after committing a mistake (Dua of Musa)",
+  purpose_bn: "ভুল করার পর ক্ষমা প্রার্থনার দোয়া (মূসা আ.-এর দোয়া)",
+  source: "Quran: Surah Al-Qasas, 28:16",
+  arabic: "قَالَ رَبِّ إِنِّي ظَلَمْتُ نَفْسِي فَاغْفِرْ لِي ۖ فَغَفَرَ لَهُ ۚ إِنَّهُ هُوَ الْغَفُورُ الرَّحِيمُ",
+  transliteration: "Qala rabbi inni zalamtu nafsi faghfir li, faghafara lahu innahu huwa al-ghafurur rahim.",
+  meaning_bn:
+    "তিনি বললেন, ‘হে আমার রব! আমি নিজের প্রতি অবিচার করেছি, তাই আমাকে ক্ষমা করুন।’ তখন আল্লাহ তাকে ক্ষমা করলেন। নিশ্চয়ই তিনি অত্যন্ত ক্ষমাশীল, পরম দয়ালু।",
+  meaning_en:
+    "He said, 'My Lord, indeed I have wronged myself, so forgive me.' So Allah forgave him. Indeed, He is the Most Forgiving, the Most Merciful.",
+  tags: ["repentance", "forgiveness", "musa", "mistake", "tawbah"],
+  context_en:
+    "After unintentionally causing the death of an Egyptian man, Prophet Musa turned immediately to Allah in repentance. This verse demonstrates the importance of acknowledging one's mistake and sincerely seeking forgiveness from Allah.",
+  context_bn:
+    "একজন মিশরীয় ব্যক্তির মৃত্যুর ঘটনা অনিচ্ছাকৃতভাবে ঘটার পর মূসা (আ.) সাথে সাথেই আল্লাহর কাছে তওবা করেন। এই আয়াতটি দেখায় যে ভুল বুঝতে পারার সাথে সাথেই আন্তরিকভাবে আল্লাহর কাছে ক্ষমা চাইতে হয়।"
 },
 
 // ─── QURAN: Yunus (AS) in the Whale ──────────────────────────────────────────
